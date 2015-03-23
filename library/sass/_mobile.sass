@@ -1,0 +1,279 @@
+@media screen and (max-width: 767px)
+	body
+		padding: 0
+		p, ul li
+			font-size: 14px
+		.btn-primary
+			font-size: 15px
+			padding: 14px 20px
+			margin-bottom: 20px
+		section
+			ul
+				padding-left: 20px
+			.alignleft
+				display: block
+				float: none
+				margin: 0 auto 20px
+				border: 1px solid #efefef
+				background: #f5f5f5
+				padding: 6px
+			.alignright
+				display: block
+				float: none
+				margin: 0 auto 20px
+				border: 1px solid #efefef
+				background: #f5f5f5
+				padding: 6px
+			.size-full, .size-large
+				border: 1px solid #efefef
+				background: #f5f5f5
+				margin: 0 0 20px
+				padding: 6px
+				max-width: 100%
+				height: auto
+	header
+		.navbar-default
+			position: static
+			margin: 0
+			height: auto
+			.navbar-header
+				.navbar-brand
+					width: 120px
+					height: 60px
+					background-size: 100px auto
+				.navbar-toggle
+					border: none
+					background: transparent
+					margin: 0 5px 0 0
+					.text
+						font-size: 10px
+						text-transform: uppercase
+					.icon-bar
+						background: lighten($black, 20%)
+						height: 3px
+						width: 28px
+						border-radius: 0
+			.navbar-collapse
+				float: none!important
+				margin: 0
+				.navbar-nav
+					overflow: auto
+					li
+						float: left
+						display: block
+						width: 50%
+						text-align: center
+						a
+							padding: 10px 15px
+						&.contact
+							clear: both
+							float: none
+							width: 100%
+							a
+								border-top: 1px solid $lightGrey
+			.telephone
+				float: none
+				display: block
+				clear: both
+				.navbar-nav
+					li
+						padding: 5px 0
+						float: none
+						display: block
+						text-align: center
+						font-size: 17px
+						em
+							display: inline-block
+							font-size: 17px
+
+	// Home Page
+	body.home
+		section
+			padding: 2.5em 0
+			h1
+				font-size: 24px
+				margin-bottom: 1em
+		.hero
+			background-image: url('../images/blue-bridge-mobile.jpg')
+			h1
+				margin-top: 0
+				font-size: 20px
+			ul
+				margin: 0 0 0 20px
+				padding: 0
+				li
+					font-size: 18px
+			.quick-quote
+				opacity: 0
+				transition: opacity .5s ease-in-out
+				display: none
+				&.active
+					opacity: 1
+					display: block
+			.card
+				margin: 0
+				padding: 10px
+				form.intake-form 
+					.form-group
+						margin-bottom: 8px
+						&.row
+							margin: 0
+						.col-sm-6.left, .col-sm-6.right
+							padding: 0
+							.form-control
+								margin-bottom: 8px
+		.logos
+			.col-sm-2
+				width: 49%
+				img
+					margin-bottom: 20px
+			.clients
+				margin-bottom: 20px
+		.features
+			.nav-tabs
+				li
+					a
+						height: 72px
+						font-size: 13px
+			.tab-content
+				.tab-pane
+					padding: 30px 15px
+					.col-sm-12, .col-lg-6
+						padding: 0 15px
+						h2
+							font-size: 20px
+							font-weight: 600
+							margin-bottom: 20px
+						.btn-primary
+							padding: 16px
+							font-size: 13px
+							width: 100%
+						p
+							margin-bottom: 20px
+		.testimonials
+			.btn-default
+				font-size: 14px
+			blockquote
+				padding: 0 0 15px
+				small
+					white-space: normal
+		.benefits
+			h2
+				font-size: 17px
+			p
+				padding-bottom: 15px
+				border-bottom: 1px solid $lightGrey
+				margin-bottom: 20px
+			.btn-primary
+				font-size: 14px
+				width: 100%
+		.faq
+			.panel-group
+				margin-bottom: 1em
+				.panel
+					margin-bottom: .65em
+					.panel-heading
+						padding: 4px 8px
+						.panel-title
+							a 	
+								font-size: 14px
+								.glyphicon
+									margin-right: 0
+									font-size: 9px
+									top: -1px
+			.btn-default
+				font-size: 14px
+				width: 100%
+	
+	// Footer
+	.footer
+		.bucket
+			.bucket-title
+				text-align: center
+				font-size: 19px
+			.footer-bucket
+				padding-bottom: 20px
+				border-bottom: 1px solid rgba(0, 0, 0, .15)
+				box-shadow: 0 1px 0 rgba(255, 255, 255, .08)
+				margin-bottom: 20px
+				li
+					text-align: center
+					margin-bottom: 10px
+					a
+						font-size: 16px
+
+	// Secondary Pages
+	.standard
+		padding-top: 1em
+	h1.page-title
+		font-size: 22px
+		margin-bottom: 20px
+		text-align: center
+	h1.entry-title
+		font-size: 22px
+		margin-bottom: 0
+		text-align: left
+	h2
+		font-size: 18px
+	.subhead
+		font-size: 18px
+	.microhero
+		height: 150px
+		background-color: $black
+		background-position: center center
+		background-repeat: no-repeat
+		background-size: cover
+		h2, h1
+			font-size: 32px
+			line-height: 150px
+			margin: 0
+			white-space: nowrap
+	.bar
+		clear: both
+		margin-bottom: 1em
+		padding-bottom: 1em
+		border-bottom: 1px solid $lightGrey
+		.btn-primary
+			margin: 0
+	.widget
+		margin: 0 0 20px
+		.footer-bucket
+			overflow: auto
+			li
+				text-align: center
+				float: left
+				width: 50%
+				&.current-menu-item > .sub-menu, &.current-menu-ancestor > .sub-menu
+					display: none
+				a
+					font-size: 14px
+	.quick-quote
+		opacity: 0
+		transition: opacity .5s ease-in-out
+		display: none
+		&.active
+			opacity: 1
+			display: block
+
+	.breadcrumb
+		display: none
+
+	.leadership
+		.social-profile
+			margin-bottom: 20px
+		article
+			padding-bottom: 1em
+			margin-bottom: 1em
+			border-bottom: 1px solid $lightGrey
+
+	// Hiding elements for certain pages
+	body.page-id-181, body.page-id-225
+		.bar
+			.about
+				display: none
+	body.page-template-about-php
+		.bar
+			.visible-xs
+				display: none!important
+			.about
+				margin-bottom: 0

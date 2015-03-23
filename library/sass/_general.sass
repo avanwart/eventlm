@@ -1,0 +1,216 @@
+// Colors
+$black: #212121
+$midGrey: #444444
+$darkGrey: #313131
+$lightGrey: #f1f1f1
+$link: #239ae5
+$green: #00973d
+$blue: #0094d2
+$orange: #f06d1e
+
+$greydient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#efefef 10%,#ffffff 90%)
+$blueGreenGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#ABC283 10%,#00596E 90%)
+$greendient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.2)),-webkit-linear-gradient(108deg,#00973d 10%,#007844 90%)
+$blueGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#00abba,#006b98 90%)
+$darkGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#333333,#555555 90%)
+
+// Global Variables
+$navbarHeight: 88px
+
+// Typography
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700')
+$font: 'Open Sans', sans-serif
+
+h1, h2, h3, h4, h5
+	font-family: $font
+	font-weight: 100
+	line-height: 1.3
+	margin-top: 0
+	clear: both
+	a
+		&:hover
+			text-decoration: none
+			color: darken($blue, 20%)
+	&.borderless
+		border: none
+.bucket-title
+	color: #999
+	font-weight: bold
+	font-size: 15px
+	text-transform: uppercase
+p
+	font-size: 1em
+	margin-bottom: 1.5em
+	line-height: 1.7
+
+body
+	-webkit-font-smoothing: antialiased
+	padding-top: $navbarHeight
+	font-family: $font
+	font-size: 16px
+
+// Buttons
+.btn
+	border-radius: 0
+	border: none
+	i
+		font-size: .65em
+		top: 0
+.btn-lg
+	font-size: 17px
+	padding: 16px 40px
+	text-transform: uppercase
+	font-weight: bold
+	text-shadow: none
+.btn-primary
+	background: $green
+	border-color: $green
+	text-shadow: none
+	&:hover, &:focus, &:active
+		background: lighten($green, 2%)
+.btn-default
+	background: transparent
+	border: 2px solid white
+	color: white
+	&:hover
+		background: white
+		color: $blue
+		border-color: white
+
+// Images
+.img-thumbnail
+	cursor: default
+.alignleft
+	float: left
+	border: 1px solid #efefef
+	background: #f5f5f5
+	margin: 0 20px 10px 0
+	padding: 6px
+.alignright
+	float: right
+	border: 1px solid #efefef
+	background: #f5f5f5
+	margin: 0 0 10px 20px
+	padding: 6px
+.size-full, .size-large
+	border: 1px solid #efefef
+	background: #f5f5f5
+	margin: 0 0 20px
+	padding: 6px
+	max-width: 100%
+	height: auto
+.well
+	box-shadow: none
+	border-radius: 0
+	border: none
+	address
+		margin: 0
+
+// Forms
+form
+	.form-control
+		border-radius: 0
+		border-color: 1px solid #dadada
+		box-shadow: none
+		color: $black
+		padding: 6px 8px
+		font-weight: normal
+	.placeholder
+		color: #aaaaaa
+	label.error
+		font-size: 14px
+		font-weight: normal
+	input[type="tel"]
+		-webkit-user-select: none
+	select.form-control
+		-webkit-appearance: none
+		background: white url('../images/dd-arrow.jpg') 97% 13px no-repeat
+		background-size: 8px 12px
+		border: 1px solid #dadada
+		border-radius: 0
+		color: #999
+		font-weight: normal
+		&.hot
+			border-color: $blue
+			box-shadow: 0 0 15px white
+			outline: 1px
+		&.valid
+			color: $black
+	&.intake-form
+		.form-group
+			position: relative
+			margin-bottom: 6px
+			// .btn-primary
+			// 	padding: 12px 40px
+			// 	font-size: 16px
+			.form-control
+				border-color: #333
+				height: 40px
+			.col-sm-6
+				&.left
+					padding-right: 3px
+					position: relative
+					label.error
+						//right: 15px
+				&.right
+					padding-left: 3px
+					position: relative
+					label.error
+						right: 15px
+
+
+// Media
+.img-thumbnail
+	border-radius: 2px
+	border-color: #efefef
+// Layout
+.flat
+	margin: 0
+
+// Accordions
+.panel-group
+	.panel
+		border-radius: 2px
+		margin-bottom: 1em
+		box-shadow: 0px 0px 8px rgba(0, 0, 0, .2)
+		border: none
+		.panel-heading
+			background: white
+			border: none
+			.panel-title
+				padding: 4px 0
+				a
+					font-size: 1em
+					line-height: 1.5
+					text-shadow: none
+					font-weight: normal
+					.glyphicon
+						color: #666
+						font-size: .75em
+						margin-right: 10px
+					.glyphicon-minus
+						display: inline-block
+					.glyphicon-plus
+						display: none
+					&.collapsed
+						.glyphicon-plus
+							display: inline-block
+						.glyphicon-minus
+							display: none
+		.panel-collapse
+			.panel-body
+				border-top: 1px dotted #efefef
+				background: white
+				font-size: 14px
+				line-height: 1.6
+				padding: 10px 15px 15px
+				text-shadow: none
+				color: $black
+				p
+					margin-bottom: 0
+					font-weight: normal
+					text-shadow: none
+
+			&.in
+				.panel-body
+					// border-top: 1px solid $ash

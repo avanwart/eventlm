@@ -1,0 +1,57 @@
+.navbar-default
+	height: $navbarHeight
+	background: white
+	border: none
+	box-shadow: 0 1px 3px rgba(0, 0, 0, .08)
+	.navbar-header
+		.navbar-brand
+			margin-left: 0
+			text-indent: -9999px
+			width: 180px
+			height: $navbarHeight - 10px
+			// background: url('../images/bauers-logo-flat-2x.png') center 18px no-repeat
+			background: url('../images/bauers-logo-revised-2x.jpg') center 16px no-repeat
+			background-size: 140px auto
+	.navbar-collapse
+		margin: 20px 0 10px
+		.navbar-nav
+			li
+				a
+					color: $midGrey
+					font-size: 15px
+					padding: 15px 20px
+					border-radius: 40px
+					font-weight: normal
+					&:hover
+						background: rgba(0, 0, 0, .04)
+				&.active
+					a
+						background: transparent
+	.telephone
+		float: right
+		margin: 0
+		.navbar-nav
+			margin: 0
+			li
+				padding: 15px 20px
+				color: $midGrey
+				font-size: 13px
+				text-align: center
+				em
+					font-style: normal
+					font-weight: bold
+					color: $green
+					display: block
+					font-size: 19px
+
+body.page-template-home-page-old-logo-php, body.page-template-home-page-new-hero-old-logo-php
+	.navbar-default
+		.navbar-header
+			.navbar-brand
+				margin-left: 0
+				text-indent: -9999px
+				width: 180px
+				height: $navbarHeight - 10px
+				background: url('../images/bauers-it-logo-2x.jpg') center 7px no-repeat
+				background-size: 140px auto
+
