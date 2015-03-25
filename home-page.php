@@ -161,8 +161,8 @@ Template Name: Home Page
 						<div class="row">
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/budget-scoping.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Budget &amp; Scoping</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<h2><?php the_field('benefits_subhead_1'); ?></h2>
+								<p><?php the_field('benefits_micro_text_1'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -170,8 +170,8 @@ Template Name: Home Page
 						<div class="row">
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/traffic-management.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Parking &amp; Traffic Management</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<h2><?php the_field('benefits_subhead_2'); ?></h2>
+								<p><?php the_field('benefits_micro_text_2'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -182,8 +182,8 @@ Template Name: Home Page
 						<div class="row">
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/management.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>End-to-end Event Management</h2>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+								<h2><?php the_field('benefits_subhead_3'); ?></h2>
+								<p><?php the_field('benefits_micro_text_3'); ?></p>
 							</div>
 						</div>
 					</div>
@@ -191,8 +191,8 @@ Template Name: Home Page
 						<div class="row">
 							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/choices.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Turn-key Experience</h2>
-								<p>Our system allows you to sort bids by experience, fleet size, expected duration, price and more.</p>
+								<h2><?php the_field('benefits_subhead_4'); ?></h2>
+								<p><?php the_field('benefits_micro_text_4'); ?></p>
 							</div>
 						</div>
 					</div>
