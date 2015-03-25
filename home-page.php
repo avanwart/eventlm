@@ -9,7 +9,7 @@ Template Name: Home Page
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-				<h1>Logistics and Transportation <br class="hidden-xs"/>for Large Scale Events</h1>
+				<h1><?php the_field('hero_headline'); ?></h1>
 				<h2 class="">Over 500,000 trucks available at any given time sed do eiusmod.</h2>
 				<!-- CTA -->
 				<div class="row">
