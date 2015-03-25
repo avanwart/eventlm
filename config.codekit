@@ -3246,6 +3246,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/hero-bg-bw.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 254806,
+		"inputAbbreviatedPath": "\/library\/images\/hero-bg-bw.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-bg-bw.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/hero-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3253,6 +3264,17 @@
 		"initialSize": 104177,
 		"inputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/hero-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82598,
+		"inputAbbreviatedPath": "\/library\/images\/hero-bg2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-bg2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
