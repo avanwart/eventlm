@@ -2838,6 +2838,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/eventlm-logo-new-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14760,
+		"inputAbbreviatedPath": "\/eventlm-logo-new-2x.jpg",
+		"outputAbbreviatedPath": "\/eventlm-logo-new-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/favicon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2993,28 +3004,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/library\/images\/airplane-icon.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1435,
-		"inputAbbreviatedPath": "\/library\/images\/airplane-icon.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/airplane-icon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/apple-icon-touch.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8439,
-		"inputAbbreviatedPath": "\/library\/images\/apple-icon-touch.png",
-		"outputAbbreviatedPath": "\/library\/images\/apple-icon-touch.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/bary-bauer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3022,105 +3011,6 @@
 		"initialSize": 16412,
 		"inputAbbreviatedPath": "\/library\/images\/bary-bauer.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/bary-bauer.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-it-logo-2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20270,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-it-logo-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77494,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.png",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-it-logo-better.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 122746,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-better.png",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-better.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-it-logo-new-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 45692,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-it-logo-new-2x.png",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-it-logo-new-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-logo-flat-2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10087,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-logo-flat-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 20835,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.png",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-logo-flat-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/bauers-logo-revised-2x.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11428,
-		"inputAbbreviatedPath": "\/library\/images\/bauers-logo-revised-2x.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/bauers-logo-revised-2x.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/beautiful-road-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 326086,
-		"inputAbbreviatedPath": "\/library\/images\/beautiful-road-2.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/beautiful-road-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/beautiful-road.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 436791,
-		"inputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/beautiful-road.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3136,90 +3026,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/blue-bridge-2.jpg": {
+	"\/library\/images\/budget-scoping.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 200654,
-		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-2.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/blue-bridge-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 93307,
-		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/blue-bridge-mobile.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 61087,
-		"inputAbbreviatedPath": "\/library\/images\/blue-bridge-mobile.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-bridge-mobile.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/blue-bridge.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 138839,
-		"inputAbbreviatedPath": "\/library\/images\/blue-bridge.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-bridge.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/blue-gradient-bg2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 155898,
-		"inputAbbreviatedPath": "\/library\/images\/blue-gradient-bg2.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-gradient-bg2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/blue-gradient.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 21393,
-		"inputAbbreviatedPath": "\/library\/images\/blue-gradient.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/blue-gradient.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/boarding-bus-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 79184,
-		"inputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/boarding-bus-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/buses-hero-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 122344,
-		"inputAbbreviatedPath": "\/library\/images\/buses-hero-bg.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/buses-hero-bg.jpg",
+		"initialSize": 10420,
+		"inputAbbreviatedPath": "\/library\/images\/budget-scoping.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/budget-scoping.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3257,24 +3070,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/charters-hero.jpg": {
+	"\/library\/images\/choices.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 90946,
-		"inputAbbreviatedPath": "\/library\/images\/charters-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/charters-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/coca-cola-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4882,
-		"inputAbbreviatedPath": "\/library\/images\/coca-cola-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/coca-cola-logo.jpg",
+		"initialSize": 17803,
+		"inputAbbreviatedPath": "\/library\/images\/choices.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/choices.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3290,17 +3092,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/corporate-commuter.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 17481,
-		"inputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/corporate-commuter.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/crown-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3308,17 +3099,6 @@
 		"initialSize": 1514,
 		"inputAbbreviatedPath": "\/library\/images\/crown-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/crown-icon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/custom-post-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 462,
-		"inputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
-		"outputAbbreviatedPath": "\/library\/images\/custom-post-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3378,13 +3158,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/event-hero.jpg": {
-		"fileType": 16384,
+	"\/library\/images\/email-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 129565,
-		"inputAbbreviatedPath": "\/library\/images\/event-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/event-hero.jpg",
+		"initialSize": 1156,
+		"inputAbbreviatedPath": "\/library\/images\/email-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/email-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3400,79 +3180,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/flat.png": {
+	"\/library\/images\/eventlm-logo-new-2x.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14760,
+		"inputAbbreviatedPath": "\/library\/images\/eventlm-logo-new-2x.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/eventlm-logo-new-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/facebook-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 6716,
-		"inputAbbreviatedPath": "\/library\/images\/flat.png",
-		"outputAbbreviatedPath": "\/library\/images\/flat.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/gary-2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9511,
-		"inputAbbreviatedPath": "\/library\/images\/gary-2.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/gary-2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/gary-schwartz.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13024,
-		"inputAbbreviatedPath": "\/library\/images\/gary-schwartz.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/gary-schwartz.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/get-comfortable.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 46052,
-		"inputAbbreviatedPath": "\/library\/images\/get-comfortable.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/get-comfortable.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/go-green.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 88970,
-		"inputAbbreviatedPath": "\/library\/images\/go-green.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/go-green.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/gradient-hero-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 101305,
-		"inputAbbreviatedPath": "\/library\/images\/gradient-hero-bg.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/gradient-hero-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/green-field-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 163366,
-		"inputAbbreviatedPath": "\/library\/images\/green-field-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/green-field-hero.jpg",
+		"initialSize": 1186,
+		"inputAbbreviatedPath": "\/library\/images\/facebook-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/facebook-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3488,24 +3213,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/hero-bg-2.jpg": {
+	"\/library\/images\/headshot-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 114873,
-		"inputAbbreviatedPath": "\/library\/images\/hero-bg-2.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/hero-bg-2.jpg",
+		"initialSize": 8718,
+		"inputAbbreviatedPath": "\/library\/images\/headshot-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/headshot-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/hero-bg-sample.jpg": {
+	"\/library\/images\/headshot-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 206397,
-		"inputAbbreviatedPath": "\/library\/images\/hero-bg-sample.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/hero-bg-sample.jpg",
+		"initialSize": 10633,
+		"inputAbbreviatedPath": "\/library\/images\/headshot-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/headshot-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/headshot-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9010,
+		"inputAbbreviatedPath": "\/library\/images\/headshot-3.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/headshot-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3514,31 +3250,9 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 102840,
+		"initialSize": 104177,
 		"inputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/hero-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/hp-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 10331,
-		"inputAbbreviatedPath": "\/library\/images\/hp-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/hp-logo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/lct-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8642,
-		"inputAbbreviatedPath": "\/library\/images\/lct-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/lct-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3565,17 +3279,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/lincecum-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 92581,
-		"inputAbbreviatedPath": "\/library\/images\/lincecum-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/lincecum-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/linkedin-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3587,13 +3290,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/linkedin-logo.jpg": {
-		"fileType": 16384,
+	"\/library\/images\/linkedin-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 3301,
-		"inputAbbreviatedPath": "\/library\/images\/linkedin-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/linkedin-logo.jpg",
+		"initialSize": 1529,
+		"inputAbbreviatedPath": "\/library\/images\/linkedin-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/linkedin-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3609,35 +3312,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/login-logo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7019,
-		"inputAbbreviatedPath": "\/library\/images\/login-logo.png",
-		"outputAbbreviatedPath": "\/library\/images\/login-logo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/logo-flat-2x.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 419719,
-		"inputAbbreviatedPath": "\/library\/images\/logo-flat-2x.png",
-		"outputAbbreviatedPath": "\/library\/images\/logo-flat-2x.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/meeting-hero.jpg": {
+	"\/library\/images\/management.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 84948,
-		"inputAbbreviatedPath": "\/library\/images\/meeting-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/meeting-hero.jpg",
+		"initialSize": 13220,
+		"inputAbbreviatedPath": "\/library\/images\/management.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/management.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3649,17 +3330,6 @@
 		"initialSize": 1487,
 		"inputAbbreviatedPath": "\/library\/images\/music-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/music-icon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/new-york-times-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 9356,
-		"inputAbbreviatedPath": "\/library\/images\/new-york-times-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/new-york-times-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3686,17 +3356,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/pink-bridge.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 148359,
-		"inputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/pink-bridge.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/retention-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3704,50 +3363,6 @@
 		"initialSize": 1544,
 		"inputAbbreviatedPath": "\/library\/images\/retention-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/retention-icon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/ride-in-style.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39471,
-		"inputAbbreviatedPath": "\/library\/images\/ride-in-style.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/ride-in-style.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/sf-business-times-logo.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 14916,
-		"inputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/sf-business-times-logo.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/sf-waterfront-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 121016,
-		"inputAbbreviatedPath": "\/library\/images\/sf-waterfront-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/sf-waterfront-hero.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/shuttle-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 118256,
-		"inputAbbreviatedPath": "\/library\/images\/shuttle-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/shuttle-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3774,24 +3389,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/stay-connected.jpg": {
+	"\/library\/images\/traffic-management.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 28711,
-		"inputAbbreviatedPath": "\/library\/images\/stay-connected.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/stay-connected.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/sunset-bus-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75624,
-		"inputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/sunset-bus-hero.jpg",
+		"initialSize": 15028,
+		"inputAbbreviatedPath": "\/library\/images\/traffic-management.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/traffic-management.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3807,24 +3411,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/twin-peaks-bend.jpg": {
-		"fileType": 16384,
+	"\/library\/images\/twitter-icon.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 361682,
-		"inputAbbreviatedPath": "\/library\/images\/twin-peaks-bend.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/twin-peaks-bend.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/twin-peaks.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 463560,
-		"inputAbbreviatedPath": "\/library\/images\/twin-peaks.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/twin-peaks.jpg",
+		"initialSize": 2338,
+		"inputAbbreviatedPath": "\/library\/images\/twitter-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/twitter-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3840,17 +3433,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/Untitled-3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 18463,
-		"inputAbbreviatedPath": "\/library\/images\/Untitled-3.png",
-		"outputAbbreviatedPath": "\/library\/images\/Untitled-3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/up-arrow-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3862,17 +3444,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/library\/images\/win8-tile-icon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 8048,
-		"inputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
-		"outputAbbreviatedPath": "\/library\/images\/win8-tile-icon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/library\/images\/wine-glass-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3880,17 +3451,6 @@
 		"initialSize": 1368,
 		"inputAbbreviatedPath": "\/library\/images\/wine-glass-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/wine-glass-icon.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/library\/images\/wine-tour-hero.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 91023,
-		"inputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
-		"outputAbbreviatedPath": "\/library\/images\/wine-tour-hero.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5033,6 +4593,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/README.md": {
+		"enableFootnoteSupport": 0,
+		"enableSmartyPants": 1,
+		"expandTabs": 1,
+		"fileType": 4096,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/screenshot.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -5067,24 +4639,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/services.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sidebar-225.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sidebar-225.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sidebar-27.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sidebar-27.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

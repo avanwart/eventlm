@@ -8,68 +8,10 @@ Template Name: Home Page
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-11 col-lg-offset-1">
-				<div class="row">
-					<div class="col-sm-6 col-lg-7">
-						<h1>Professional Transportation <br class="hidden-xs"/>for Any Occasion</h1>
-						<h2 class="hidden-xs">Let our dedicated account managers, advanced technology platform, and extensive security checks ensure you'll have peace of mind. Over 25 years of experience with:</h2>
-						<ul>
-							<li>Charters</li>
-							<li>Corporate Commuter Programs</li>
-							<li>Major Event Logistics &amp; Transporation</li>
-						</ul>
-						<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
-					</div>
-					<div class="col-sm-6 col-lg-5">
-						<div class="card quick-quote">
-							<?php /*echo do_shortcode('[formidable id=6]'); ?>*/ ?>
-							<form id="intake" class="intake-form" action="">
-								<legend>Get a Quote<small>We'll get back to you in 24 hours</small></legend>
-								<fieldset>
-									<div class="form-group">
-										<select name="service" id="service" class="form-control" required="">
-											<option value="">Which service would you like?</option>
-											<option value="charter">Charter</option>
-											<option value="commuter">Commuter</option>
-											<option value="events">Event Logistics Management</option>
-										</select>
-									</div>
-									<div class="form-group" id="name_of_event" style="display: none">
-										<input type="text" class="form-control" name="event_name" placeholder="Name of the event" required="">
-									</div>
-									<div class="form-group row">
-										<div class="col-sm-6 left">
-											<input type="text" id="first_name" name="first_name" placeholder="First name" class="form-control" required="">
-										</div>
-										<div class="col-sm-6 right">
-											<input type="text" name="last_name" placeholder="Last name" class="form-control" required="">
-										</div>
-									</div>
-									<div class="form-group">
-										<input type="email" class="form-control" name="email_address" placeholder="Email address" required="">
-									</div>
-									<div class="form-group">
-										<input type="tel" class="form-control" name="phone_number" placeholder="Phone number" required="">
-									</div>
-									<div class="form-group">
-										<input type="text" class="form-control" name="company_name" placeholder="Company name" required="">
-									</div>
-									<div class="form-group row supplementary">
-										<div class="col-sm-6 left">
-											<input type="text" name="pickup_date" placeholder="Pick up date" class="form-control" required="">
-										</div>
-										<div class="col-sm-6 right">
-											<input type="text" name="passenger_count" placeholder="# of passengers" class="form-control" required="">
-										</div>
-									</div>
-									<div class="form-group">
-										<button class="btn btn-lg btn-primary btn-block">Get a quote <i class="glyphicon glyphicon-chevron-right"></i></button>
-									</div>
-								</fieldset>
-							</form> 
-						</div>
-					</div>
-				</div>
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+				<h1>Logistics and Transportation <br class="hidden-xs"/>for Large Scale Events</h1>
+				<h2 class="">Lorem ipsum dolor sit amet with over 500,000 trucks available at any given time sed do eiusmod tempor incididunt ut labore et dolore.</h2>
+				<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 			</div>
 		</div>
 		<!-- <a class="down-arrow scroll" href="#services"></a> -->
@@ -98,137 +40,52 @@ Template Name: Home Page
 			<div class="col-lg-8 col-lg-offset-2">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>Take your next trip with us</h1>
+						<h1>Headache-Free Event Logistics</h1>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-sm-12">
-						<div role="tabpanel">
-						  <!-- Nav tabs -->
-						  <ul class="nav nav-tabs" role="tablist">
-						    <li role="presentation" class="active"><a href="#charters" aria-controls="charters" role="tab" data-toggle="tab">Charters</a></li>
-						    <li role="presentation" class="two"><a href="#commuters" aria-controls="commuters" role="tab" data-toggle="tab">Corporate Commuter</a></li>
-						    <li role="presentation" class="three"><a href="#events" aria-controls="events" role="tab" data-toggle="tab">Major Events Transportation</a></li>
-						  </ul>
-						  <!-- Tab panes -->
-						  <div class="tab-content">
-						    <div role="tabpanel" class="tab-pane active" id="charters">
-						    	<div class="row">
-						    		<div class="col-sm-12">
-						    			<h2 class="text-center">Choose Your Adventure</h2>
-						    			<p class="text-center hidden-xs">We make the journey part of the enjoyment of travel for a wide variety of activities, events and occasions for groups of up to 1,000.</p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('airport_transfers_url'); ?>"><i class="icon airplane"></i>Airport Transfers</a></h3>
-						    			<p><small>Take the hassle out of ground transportation after touching down at the airport.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('city_tours_url'); ?>"><i class="icon binoculars"></i>City Tours</a></h3>
-						    			<p><small>Sightseeing tours showcase a city’s unique sights and culture for groups of all sizes.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('snow_trips_url'); ?>"><i class="icon snow"></i>Snow Trips</a></h3>
-						    			<p><small>Journey up to North Lake Tahoe &mdash; including Sugar Bowl, Alpine, Squaw, and North Star.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('wine_country_tours_url'); ?>"><i class="icon wine"></i>Wine Country Tours</a></h3>
-						    			<p><small>Exclusive, curated tours led by wine experts. Tastings and gourmet lunch included.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('black_car_service_url'); ?>"><i class="icon car"></i>Black Car Service</a></h3>
-						    			<p><small>Travel in style with luxury black car transportation.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('group_events_url'); ?>"><i class="icon group"></i>Group Events</a></h3>
-						    			<p><small>The list of Bauer's IT adventures is nearly endless. Tell us what your plans are.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-										<div class="col-sm-12 text-center">
-											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free charter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-										</div>
-									</div>
-						    </div>
-						    <div role="tabpanel" class="tab-pane" id="commuters">
-						    	<div class="row">
-						    		<div class="col-sm-12">
-						    			<h2 class="text-center">Healthier Commuting</h2>
-						    			<p class="text-center hidden-xs">Bauer’s commuter services create efficient and sustainable commute-to-work programs, effectively fulfilling transportation needs for employees of large organizations.</p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('cost_effective_url'); ?>"><i class="retention icon"></i>Surprisingly Cost-Effective</a></h3>
-						    			<p><small>Increase retention and efficiency by removing the commute headache from your employees.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('last_mile_shuttles_url'); ?>"><i class="up icon"></i>Last-Mile Shuttles</a></h3>
-						    			<p><small>Just a little too far from the train? Make public transportation easy with our last-mile shuttles.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('increase_productivity_url'); ?>"><i class="earth icon"></i>Increase Productivity</a></h3>
-						    			<p><small>When employees ride with us they can focus on a deadline with Wi-Drive.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('commuter_benefits_url'); ?>"><i class="like icon"></i>Provide Commuter Benefits</a></h3>
-						    			<p><small>Commuter Benefits are a competitive incentive for recruiting the very best talent.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-										<div class="col-sm-12 text-center">
-											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free commuter quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-										</div>
-									</div>
-						    </div>
-						    <div role="tabpanel" class="tab-pane" id="events">
-						    	<div class="row">
-						    		<div class="col-sm-12">
-						    			<h2 class="text-center">Event Logistics</h2>
-						    			<p class="text-center hidden-xs">Need to move more than 1,000 people? Remove the headache from your next major event with our team of expert planners that delivers innovative solutions.</p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('concerts_festivals_url'); ?>"><i class="music icon"></i>Concerts &amp; Festivals</a></h3>
-						    			<p><small>Get thousands of attendees to and from fun and funky venues - even off the beaten path.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('conferences_conventions_url'); ?>"><i class="conference icon"></i>Conferences &amp; Conventions</a></h3>
-						    			<p><small>Support the transportation needs of your major event, whether it’s across the country or around the world.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('sports_events_url'); ?>"><i class="sports icon"></i>Sports Events &amp; Marathons</a></h3>
-						    			<p><small>Need to handle a marathon, football game, or PGA tournament? Create exceptional travel experiences for participants and fans.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('traffic_management_url'); ?>"><i class="car icon"></i>Parking &amp; Traffic Management</a></h3>
-						    			<p><small>Green, comprehensive services for parking management that can handle any size event.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('travel_demand_url'); ?>"><i class="travel icon"></i>Travel Demand</a></h3>
-						    			<p><small>Get single-occupancy private vehicles off the road with our “Smart Growth” policies and plans.</small></p>
-						    		</div>
-						    		<div class="col-sm-6 col-lg-6">
-						    			<h3><a href="<?php the_field('vip_transportation_url'); ?>"><i class="crown icon"></i>VIP Transportation</a></h3>
-						    			<p><small>If you have to move large numbers of VIPs, Bauer’s will provide a seamless, professional experience.</small></p>
-						    		</div>
-						    	</div>
-						    	<div class="row">
-										<div class="col-sm-12 text-center">
-											<a href="#hero" class="signup btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-										</div>
-									</div>
-						    </div>
-						  </div>
-						</div>
+	    	<div class="row">
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('conventions_url'); ?>">Conventions &amp; Corporate Events</a></h3>
+	    			<p><?php the_field('conventions_text'); ?></p>
+	    		</div>
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('sporting_events_url'); ?>">Sporting Events</a></h3>
+	    			<p><?php the_field('sporting_events_text'); ?></p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('festivals_url'); ?>">Festivals &amp; Concerts</a></h3>
+	    			<p><?php the_field('festivals_text'); ?></p>
+	    		</div>
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('marathons_url'); ?>">Marathons &amp; Endurance Challenges</a></h3>
+	    			<p><?php the_field('marathons_text'); ?></p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('political_conventions_url'); ?>">Politcal Conventions</a></h3>
+	    			<p><?php the_field('political_conventions_text'); ?></p>
+	    		</div>
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('disaster_relief_url'); ?>">Disaster Relief</a></h3>
+	    			<p><?php the_field('disaster_relief_text'); ?></p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('gov_services_url'); ?>">Government Services</a></h3>
+	    			<p><?php the_field('gov_services_text'); ?></p>
+	    		</div>
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('golf_tournaments_url'); ?>">Golf Tournaments</a></h3>
+	    			<p><?php the_field('golf_tournaments_text'); ?></p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+					<div class="col-sm-12 text-center">
+						<a href="#hero" class="signup btn btn-lg btn-primary signup">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -256,7 +113,7 @@ Template Name: Home Page
   	<?php endif; ?>
   	<div class="row">
 			<div class="col-sm-12 text-center">
-				<a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+				<a href="#hero" class="btn btn-lg btn-default signup">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -267,25 +124,25 @@ Template Name: Home Page
 			<div class="col-lg-10 col-lg-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>We take care of everything</h1>
+						<h1>Expert Services</h1>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/ride-in-style.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/budget-scoping.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Ride in Style</h2>
-								<p>Bauer’s offers an impressive fleet of sustainable luxury vehicles equipped with all the latest features and amenities for private or corporate events.</p>
+								<h2>Budget &amp; Scoping</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/get-comfortable.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/traffic-management.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Get Comfortable</h2>
-								<p>Sit back and relax into leatherette seating and enjoy our customized first-class interiors.</p>
+								<h2>Parking &amp; Traffic Management</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 							</div>
 						</div>
 					</div>
@@ -294,19 +151,19 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/stay-connected.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/management.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Stay Connected</h2>
-								<p>With WI-FI on board and power ports throughout the vehicles, you can keep up with your deadlines (or stock quotes).</p>
+								<h2>End-to-end Event Management</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
 							</div>
 						</div>
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/go-green.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/choices.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
-								<h2>Go Green</h2>
-								<p>Stay comfortable and comply with anti-idling laws with our green bus rentals and hybrids.</p>
+								<h2>Turn-key Experience</h2>
+								<p>Our system allows you to sort bids by experience, fleet size, expected duration, price and more.</p>
 							</div>
 						</div>
 					</div>
@@ -316,7 +173,7 @@ Template Name: Home Page
 		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
 		<div class="row">
 			<div class="col-sm-12 text-center">
-				<a href="#hero" class="btn btn-lg btn-primary signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+				<a href="#hero" class="btn btn-lg btn-primary signup">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></a>
 			</div>
 		</div>
 	</div>
@@ -361,7 +218,7 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center"><a href="#hero" class="btn btn-lg btn-default signup">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+				<p class="text-center"><a href="#hero" class="btn btn-lg btn-default signup">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></a></p>
 			</div>
 		</div>
 	</div>

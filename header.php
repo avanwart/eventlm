@@ -66,10 +66,10 @@
 								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li class="hidden-xs">
-											Get a Free Quote: <em>1-800-546-6688</em>
+											Call us at: <em>1-800-943-3824</em>
 										</li>
 										<li class="visible-xs">
-											Get a Free Quote: <em><a href="tel:1-800-546-6688">1-800-546-6688</a></em>
+											Call us at: <em><a href="tel:1-800-546-6688">1-800-943-3824</a></em>
 										</li>
 									</ul>
 								</nav>
