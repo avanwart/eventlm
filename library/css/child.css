@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5 {
   clear: both; }
   h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
     text-decoration: none;
-    color: #006c99; }
+    color: #005f86; }
   h1.borderless, h2.borderless, h3.borderless, h4.borderless, h5.borderless {
     border: none; }
 
@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5 {
   text-transform: uppercase; }
 
 a {
-  color: #00B4FF; }
+  color: #00a7ec; }
 
 p {
   font-size: 1em;
@@ -58,7 +58,7 @@ body {
   color: white; }
   .btn-default:hover {
     background: white;
-    color: #00B4FF;
+    color: #00a7ec;
     border-color: white; }
 
 .img-thumbnail {
@@ -116,7 +116,7 @@ form select.form-control {
   color: #999;
   font-weight: normal; }
   form select.form-control.hot {
-    border-color: #00B4FF;
+    border-color: #00a7ec;
     box-shadow: 0 0 15px white;
     outline: 1px; }
   form select.form-control.valid {
@@ -221,7 +221,7 @@ form.intake-form .form-group {
         .navbar-default .telephone .navbar-nav li em {
           font-style: normal;
           font-weight: bold;
-          color: #00B4FF;
+          color: #00a7ec;
           display: inline-block;
           font-size: 15px;
           vertical-align: baseline;
@@ -249,23 +249,34 @@ body.home section {
     padding: 12px 46px; }
 body.home .hero {
   position: relative;
-  padding: 5em 0;
-  background: url("../images/hero-bg2.jpg") 50% 100% no-repeat;
+  padding: 2em 0;
+  background: url("../images/hero-bg3.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: auto; }
   body.home .hero h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 52px;
-    margin: 20px 0 20px; }
-  body.home .hero h2 {
+    font-size: 48px;
+    margin: 20px 0 40px; }
+  body.home .hero p {
     text-align: center;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4;
-    margin: 0 0 30px; }
+    margin: 0 0 10px; }
+  body.home .hero ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 30px 0; }
+    body.home .hero ul li {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 15px; }
+      body.home .hero ul li i {
+        font-size: 0.75em;
+        margin-right: 4px; }
   body.home .hero .call {
-    font-size: 18px; }
+    font-size: 20px; }
     body.home .hero .call strong {
       font-size: 22px;
       display: block; }
@@ -273,9 +284,9 @@ body.home .hero {
     line-height: 84px;
     font-size: 20px; }
   body.home .hero .btn-primary {
-    margin: 20px 0 0 0;
-    font-size: 17px;
-    padding: 16px 40px; }
+    margin: 20px 0 0 30px;
+    font-size: 16px;
+    padding: 14px 40px; }
 body.home .logos {
   padding: 1.5em 0;
   border-bottom: 1px solid #dadada; }

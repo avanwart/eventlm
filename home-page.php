@@ -8,13 +8,26 @@ Template Name: Home Page
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+			<div class="col-sm-12 text-center">
 				<h1><?php the_field('hero_headline'); ?></h1>
-				<h2 class=""><?php the_field('hero_subhead'); ?></h2>
+				<p class="text-center"><?php the_field('hero_subhead'); ?></p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+						<ul>
+							<li><i class="glyphicon glyphicon-ok"></i> Event Consulting Services</li>
+							<li><i class="glyphicon glyphicon-ok"></i> Transportation Solutions (Fleet Management)</li>
+							<li><i class="glyphicon glyphicon-ok"></i> Ingress/Egress Design &amp; Implementation</li>
+						</ul>
+					</div>
+				</div>
 				<!-- CTA -->
 				<div class="row">
 					<div class="col-sm-5 call">
-						Call us today to explore your event transportation needs: <strong>1-800-555-5555</strong>
+						Questions? <strong>1-800-555-5555</strong>
 					</div>
 					<div class="col-sm-2 text-center or">
 						or
@@ -25,7 +38,6 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-		<!-- <a class="down-arrow scroll" href="#services"></a> -->
 	</div>
 </section>
 <section class="logos lightGrey">
@@ -56,42 +68,42 @@ Template Name: Home Page
 				</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('conventions_url'); ?>">Conventions &amp; Corporate Events</a></h3>
-	    			<p><?php the_field('conventions_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_1'); ?>"><?php the_field('feature_subhead_1'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_1'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('sporting_events_url'); ?>">Sporting Events</a></h3>
-	    			<p><?php the_field('sporting_events_text'); ?></p>
-	    		</div>
-	    	</div>
-	    	<div class="row">
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('festivals_url'); ?>">Festivals &amp; Concerts</a></h3>
-	    			<p><?php the_field('festivals_text'); ?></p>
-	    		</div>
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('marathons_url'); ?>">Marathons &amp; Endurance Challenges</a></h3>
-	    			<p><?php the_field('marathons_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_2'); ?>"><?php the_field('feature_subhead_2'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_2'); ?></p>
 	    		</div>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('political_conventions_url'); ?>">Politcal Conventions</a></h3>
-	    			<p><?php the_field('political_conventions_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_3'); ?>"><?php the_field('feature_subhead_3'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_3'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('disaster_relief_url'); ?>">Disaster Relief</a></h3>
-	    			<p><?php the_field('disaster_relief_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_4'); ?>"><?php the_field('feature_subhead_4'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_4'); ?></p>
 	    		</div>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('gov_services_url'); ?>">Government Services</a></h3>
-	    			<p><?php the_field('gov_services_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_5'); ?>"><?php the_field('feature_subhead_5'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_5'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('golf_tournaments_url'); ?>">Golf Tournaments</a></h3>
-	    			<p><?php the_field('golf_tournaments_text'); ?></p>
+	    			<h3><a href="<?php the_field('feature_url_6'); ?>"><?php the_field('feature_subhead_6'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_6'); ?></p>
+	    		</div>
+	    	</div>
+	    	<div class="row">
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('feature_url_7'); ?>"><?php the_field('feature_subhead_7'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_7'); ?></p>
+	    		</div>
+	    		<div class="col-sm-6 col-lg-6">
+	    			<h3><a href="<?php the_field('feature_url_8'); ?>"><?php the_field('feature_subhead_8'); ?></a></h3>
+	    			<p><?php the_field('feature_micro_text_8'); ?></p>
 	    		</div>
 	    	</div>
 	    	<!-- CTA -->
