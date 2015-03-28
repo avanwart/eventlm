@@ -247,6 +247,19 @@ body.home section {
     margin: 10px 0 0 15px;
     font-size: 16px;
     padding: 12px 46px; }
+  body.home section .call {
+    padding-top: 26px;
+    font-size: 22px; }
+    body.home section .call .or {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 20px;
+      font-size: 16px; }
+    body.home section .call .btn-primary {
+      margin: 0;
+      font-size: 16px;
+      padding: 14px 40px;
+      vertical-align: middle; }
 body.home .hero {
   position: relative;
   padding: 2em 0;
@@ -275,18 +288,6 @@ body.home .hero {
       body.home .hero ul li i {
         font-size: 0.75em;
         margin-right: 4px; }
-  body.home .hero .call {
-    font-size: 20px; }
-    body.home .hero .call strong {
-      font-size: 22px;
-      display: block; }
-  body.home .hero .or {
-    line-height: 84px;
-    font-size: 20px; }
-  body.home .hero .btn-primary {
-    margin: 20px 0 0 30px;
-    font-size: 16px;
-    padding: 14px 40px; }
 body.home .logos {
   padding: 1.5em 0;
   border-bottom: 1px solid #dadada; }

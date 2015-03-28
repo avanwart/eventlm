@@ -10,7 +10,7 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-12 text-center">
 				<h1><?php the_field('hero_headline'); ?></h1>
-				<p class="text-center"><?php the_field('hero_subhead'); ?></p>
+				<!-- <p class="text-center"><?php the_field('hero_subhead'); ?></p> -->
 			</div>
 		</div>
 		<div class="row">
@@ -26,13 +26,9 @@ Template Name: Home Page
 				</div>
 				<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-5 call">
-						Questions? <strong>1-800-555-5555</strong>
-					</div>
-					<div class="col-sm-2 text-center or">
-						or
-					</div>
-					<div class="col-sm-5 cta">
+					<div class="col-sm-12 call">
+						Call us at <strong>1-800-555-5555</strong>
+						<span class="or">or</span>
 						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
@@ -108,13 +104,9 @@ Template Name: Home Page
 	    	</div>
 	    	<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-5 call">
-						Call us today to explore your event transportation needs: <strong>1-800-555-5555</strong>
-					</div>
-					<div class="col-sm-2 text-center or">
-						or
-					</div>
-					<div class="col-sm-5 cta">
+					<div class="col-sm-12 call">
+						Call us at <strong>1-800-555-5555</strong>
+						<span class="or">or</span>
 						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
@@ -145,14 +137,10 @@ Template Name: Home Page
 			<div class="col-lg-8 col-lg-offset-2">
   			<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-5 call">
-						Call us today to explore your event transportation needs: <strong>1-800-555-5555</strong>
-					</div>
-					<div class="col-sm-2 text-center or">
-						or
-					</div>
-					<div class="col-sm-5 cta">
-						<button class="btn btn-lg btn-default" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+					<div class="col-sm-12 call">
+						Call us at <strong>1-800-555-5555</strong>
+						<span class="or">or</span>
+						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
 			</div>
@@ -214,18 +202,10 @@ Template Name: Home Page
 		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
 		<!-- CTA -->
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-sm-5 call">
-						Call us today to explore your event transportation needs: <strong>1-800-555-5555</strong>
-					</div>
-					<div class="col-sm-2 text-center or">
-						or
-					</div>
-					<div class="col-sm-5 cta">
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
-					</div>
-				</div>
+			<div class="col-sm-12 call">
+				Call us at <strong>1-800-555-5555</strong>
+				<span class="or">or</span>
+				<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 			</div>
 		</div>
 	</div>
