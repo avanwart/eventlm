@@ -15,18 +15,21 @@
 								</div>
 								<div class="col-sm-4 bucket">
 									<?php footer_bucket_3(); ?>
-									<ul class="social-media">
-										<li class="facebook"><a href="#"></a></li>
-										<li class="twitter"><a href="#"></a></li>
-										<li class="linkedin"><a href="#"></a></li>
-										<li class="email"><a href="#"></a></li>
-									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
 
 				</div> <!-- end #inner-footer -->
+
+				<div class="text-center">
+					<ul class="social-media">
+						<li class="facebook"><a href="#"></a></li>
+						<li class="twitter"><a href="#"></a></li>
+						<li class="linkedin"><a href="#"></a></li>
+						<li class="email"><a href="#"></a></li>
+					</ul>
+				</div>
 
 				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Event Logistics Management &nbsp;&nbsp;| <a href="?p=175">Terms &amp; Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="?p=547">Privacy Policy</a></p>
 

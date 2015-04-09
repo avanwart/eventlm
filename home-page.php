@@ -18,18 +18,16 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-md-10 col-md-offset-1">
 						<ul>
-							<li><i class="glyphicon glyphicon-ok"></i> Event Consulting Services</li>
-							<li><i class="glyphicon glyphicon-ok"></i> Transportation Solutions (Fleet Management)</li>
-							<li><i class="glyphicon glyphicon-ok"></i> Ingress/Egress Design &amp; Implementation</li>
+							<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+							<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+							<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
 						</ul>
 					</div>
 				</div>
 				<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-12 call">
-						Call us at <strong>1-800-555-5555</strong>
-						<span class="or">or</span>
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+					<div class="col-sm-12">
+						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
 			</div>
@@ -44,9 +42,9 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/oracle-racing-logo.jpg" alt=""></div>
 					<div class="col-xs-6 col-sm-2 levis"><img src="<?php bloginfo('template_directory'); ?>/library/images/levis-stadium-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/twitter-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2 livenation"><img src="<?php bloginfo('template_directory'); ?>/library/images/live-nation-logo.jpg" alt=""></div>
 					<div class="col-xs-6 col-sm-2 ea"><img src="<?php bloginfo('template_directory'); ?>/library/images/ea-games-logo.jpg" alt=""></div>
-					<div class="col-xs-6 col-sm-2 pge"><img src="<?php bloginfo('template_directory'); ?>/library/images/pge-logo.jpg" alt=""></div>
+					<div class="col-xs-6 col-sm-2"><img src="<?php bloginfo('template_directory'); ?>/library/images/49ers-logo.jpg" alt=""></div>
 					<div class="col-xs-6 col-sm-2 dreamforce"><img src="<?php bloginfo('template_directory'); ?>/library/images/dreamforce-logo.jpg" alt=""></div>
 				</div>
 			</div>
@@ -64,50 +62,48 @@ Template Name: Home Page
 				</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_1'); ?>"><?php the_field('feature_subhead_1'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_1'); ?>"><i class="icon planning"></i><?php the_field('feature_subhead_1'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_1'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_2'); ?>"><?php the_field('feature_subhead_2'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_2'); ?>"><i class="icon traffic"></i><?php the_field('feature_subhead_2'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_2'); ?></p>
 	    		</div>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_3'); ?>"><?php the_field('feature_subhead_3'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_3'); ?>"><i class="icon budget"></i></i><?php the_field('feature_subhead_3'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_3'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_4'); ?>"><?php the_field('feature_subhead_4'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_4'); ?>"><i class="icon parking"></i><?php the_field('feature_subhead_4'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_4'); ?></p>
 	    		</div>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_5'); ?>"><?php the_field('feature_subhead_5'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_5'); ?>"><i class="icon bus"></i><?php the_field('feature_subhead_5'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_5'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_6'); ?>"><?php the_field('feature_subhead_6'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_6'); ?>"><i class="icon bid"></i><?php the_field('feature_subhead_6'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_6'); ?></p>
 	    		</div>
 	    	</div>
 	    	<div class="row">
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_7'); ?>"><?php the_field('feature_subhead_7'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_7'); ?>"><i class="icon staffing"></i><?php the_field('feature_subhead_7'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_7'); ?></p>
 	    		</div>
 	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_8'); ?>"><?php the_field('feature_subhead_8'); ?></a></h3>
+	    			<h3><a href="<?php the_field('feature_url_8'); ?>"><i class="icon fan"></i><?php the_field('feature_subhead_8'); ?></a></h3>
 	    			<p><?php the_field('feature_micro_text_8'); ?></p>
 	    		</div>
 	    	</div>
 	    	<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-12 call">
-						Call us at <strong>1-800-555-5555</strong>
-						<span class="or">or</span>
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+					<div class="col-sm-12 text-center">
+						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
 			</div>
@@ -137,10 +133,8 @@ Template Name: Home Page
 			<div class="col-lg-8 col-lg-offset-2">
   			<!-- CTA -->
 				<div class="row">
-					<div class="col-sm-12 call">
-						Call us at <strong>1-800-555-5555</strong>
-						<span class="or">or</span>
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+					<div class="col-sm-12 text-center">
+						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
 			</div>
@@ -168,7 +162,7 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/traffic-management.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/parking-management.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2><?php the_field('benefits_subhead_2'); ?></h2>
 								<p><?php the_field('benefits_micro_text_2'); ?></p>
@@ -180,7 +174,7 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/management.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/end-to-end.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2><?php the_field('benefits_subhead_3'); ?></h2>
 								<p><?php the_field('benefits_micro_text_3'); ?></p>
@@ -189,7 +183,7 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/choices.jpg" alt=""></div>
+							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/fleet.jpg" alt=""></div>
 							<div class="col-sm-8 col-lg-7">
 								<h2><?php the_field('benefits_subhead_4'); ?></h2>
 								<p><?php the_field('benefits_micro_text_4'); ?></p>
@@ -202,10 +196,8 @@ Template Name: Home Page
 		<br class="hidden-xs hidden-sm"/><br class="hidden-xs"/>
 		<!-- CTA -->
 		<div class="row">
-			<div class="col-sm-12 call">
-				Call us at <strong>1-800-555-5555</strong>
-				<span class="or">or</span>
-				<button class="btn btn-lg btn-primary" id="toggle_intake">Submit your RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+			<div class="col-sm-12 text-center">
+				<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 			</div>
 		</div>
 	</div>
