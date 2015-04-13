@@ -14,6 +14,9 @@
 										<h1 class="page-title"><?php the_title(); ?></h1>
 									</header>
 									<?php the_content(); ?>
+									<p class="text-center">
+										<a href="?page_id=515" class="btn btn-lg btn-primary">Request a Free Quote <i class="glyphicon glyphicon-chevron-right"></i></a>
+									</p>
 								</article> <!-- end article -->
 							</div>
 						</div>
