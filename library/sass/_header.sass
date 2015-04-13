@@ -2,18 +2,19 @@
 	height: $navbarHeight
 	background: white
 	border: none
-	box-shadow: 0 1px 3px rgba(0, 0, 0, .08)
+	border-bottom: 1px solid #efefef
+	//box-shadow: 0 1px 3px rgba(0, 0, 0, .08)
 	.navbar-header
 		.navbar-brand
 			padding: 0 15px
 			margin-left: 0
 			text-indent: -9999px
 			width: 180px
-			height: $navbarHeight - 10px
-			background: url('../images/eventlm-logo-new-2x.jpg') center 14px no-repeat
+			height: $navbarHeight
+			background: url('../images/eventlm-logo-new-2x.jpg') center 18px no-repeat
 			background-size: 160px auto
 	.navbar-collapse
-		margin: 12px 0 10px
+		margin: 15px 0
 		.navbar-nav
 			li
 				a
@@ -23,7 +24,7 @@
 					border-radius: 40px
 					font-weight: normal
 					&:hover
-						background: rgba(0, 0, 0, .04)
+						color: $blue
 				&.active
 					a
 						background: transparent
@@ -31,11 +32,11 @@
 		float: right
 		margin: 0
 		.navbar-nav
-			margin: 0 0 10px
+			margin: 0
 			li
-				padding: 13px 20px
+				padding: 10px
 				color: $midGrey
-				font-size: 14px
+				font-size: 13px
 				text-align: center
 				em
 					font-style: normal

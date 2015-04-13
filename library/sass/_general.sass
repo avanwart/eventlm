@@ -17,7 +17,7 @@ $darkGradient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(
 $radient: -webkit-radial-gradient(closest-corner,rgba(16,47,70,0) 60%,rgba(16,47,70,0.26)),-webkit-linear-gradient(108deg,#36003C,#D50041 90%)
 
 // Global Variables
-$navbarHeight: 72px
+$navbarHeight: 80px
 
 // Typography
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700')
@@ -52,17 +52,19 @@ body
 	padding-top: $navbarHeight
 	font-family: $font
 	font-size: 16px
+	background: #f6f6f6
 
 // Buttons
 .btn
 	border: none
-	border-radius: 0
+	border-radius: 3px
 	i
 		font-size: .65em
 		top: 0
 .btn-lg
 	font-size: 17px
-	padding: 16px 40px
+	padding: 15px 28px
+	border-radius: 3px
 	font-weight: bold
 	text-shadow: none
 .btn-primary
@@ -70,7 +72,7 @@ body
 	border-color: $orange
 	text-shadow: none
 	&:hover, &:focus, &:active
-		background: lighten($orange, 10%)
+		background: lighten($orange, 5%)
 .btn-default
 	background: transparent
 	border: 2px solid white

@@ -28,20 +28,22 @@ p {
 
 body {
   -webkit-font-smoothing: antialiased;
-  padding-top: 72px;
+  padding-top: 80px;
   font-family: "Open Sans", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  background: #f6f6f6; }
 
 .btn {
   border: none;
-  border-radius: 0; }
+  border-radius: 3px; }
   .btn i {
     font-size: 0.65em;
     top: 0; }
 
 .btn-lg {
   font-size: 17px;
-  padding: 16px 40px;
+  padding: 15px 28px;
+  border-radius: 3px;
   font-weight: bold;
   text-shadow: none; }
 
@@ -50,7 +52,7 @@ body {
   border-color: #ff7b00;
   text-shadow: none; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #ff9533; }
+    background: #ff881a; }
 
 .btn-default {
   background: transparent;
@@ -184,20 +186,20 @@ form.intake-form .form-group {
       text-shadow: none; }
 
 .navbar-default {
-  height: 72px;
+  height: 80px;
   background: white;
   border: none;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08); }
+  border-bottom: 1px solid #efefef; }
   .navbar-default .navbar-header .navbar-brand {
     padding: 0 15px;
     margin-left: 0;
     text-indent: -9999px;
     width: 180px;
-    height: 62px;
-    background: url("../images/eventlm-logo-new-2x.jpg") center 14px no-repeat;
+    height: 80px;
+    background: url("../images/eventlm-logo-new-2x.jpg") center 18px no-repeat;
     background-size: 160px auto; }
   .navbar-default .navbar-collapse {
-    margin: 12px 0 10px; }
+    margin: 15px 0; }
     .navbar-default .navbar-collapse .navbar-nav li a {
       color: #444444;
       font-size: 15px;
@@ -205,18 +207,18 @@ form.intake-form .form-group {
       border-radius: 40px;
       font-weight: normal; }
       .navbar-default .navbar-collapse .navbar-nav li a:hover {
-        background: rgba(0, 0, 0, 0.04); }
+        color: #00a7ec; }
     .navbar-default .navbar-collapse .navbar-nav li.active a {
       background: transparent; }
   .navbar-default .telephone {
     float: right;
     margin: 0; }
     .navbar-default .telephone .navbar-nav {
-      margin: 0 0 10px; }
+      margin: 0; }
       .navbar-default .telephone .navbar-nav li {
-        padding: 13px 20px;
+        padding: 10px;
         color: #444444;
-        font-size: 14px;
+        font-size: 13px;
         text-align: center; }
         .navbar-default .telephone .navbar-nav li em {
           font-style: normal;
@@ -243,9 +245,6 @@ body.home section {
     padding-top: 10px; }
   body.home section .or {
     line-height: 64px; }
-  body.home section .btn-primary, body.home section .btn-default {
-    font-size: 16px;
-    padding: 12px 46px; }
   body.home section .call {
     padding-top: 26px;
     font-size: 22px; }
@@ -579,7 +578,8 @@ body.single-post .widget.about {
 
 .rfp form legend {
   margin: 40px 0 10px;
-  border: none; }
+  font-size: 16px;
+  padding: 0 0 5px; }
 .rfp form .radio {
   margin-bottom: 10px;
   line-height: 1.6; }
@@ -774,7 +774,7 @@ section {
   margin-bottom: 10px; }
 
 .footer {
-  padding: 2em 0;
+  padding: 3em 0 2em;
   margin-top: 0;
   background: #212121;
   border: none;
@@ -785,7 +785,7 @@ section {
     padding: 0; }
     .footer .footer-bucket li {
       display: block;
-      margin-bottom: 8px; }
+      margin-bottom: 15px; }
       .footer .footer-bucket li a {
         color: #f1f1f1;
         font-size: 14px; }
