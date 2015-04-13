@@ -95,8 +95,11 @@ body {
   .well address {
     margin: 0; }
 
+form .control-label {
+  font-size: 15px; }
 form .form-control {
   border-radius: 0;
+  background: white;
   border-color: 1px solid #dadada;
   box-shadow: none;
   color: #212121;
@@ -738,6 +741,8 @@ section {
   background: url("../images/linkedin-icon.jpg") center center no-repeat;
   background-size: 18px auto; }
 
+.contact .table {
+  background: white; }
 .contact .google-map {
   position: relative;
   padding-bottom: 75%;
@@ -757,7 +762,6 @@ section {
   margin: 0; }
 .contact .form .form-control {
   height: 40px;
-  background: #f5f5f5;
   font-size: 15px;
   color: #212121; }
 .contact .form textarea.form-control {
@@ -765,11 +769,12 @@ section {
 .contact .form .btn {
   width: 100%;
   background: #ff7b00; }
-.contact .well hr {
-  margin: 10px 0; }
+.contact .well {
+  margin-bottom: 10px; }
+  .contact .well hr {
+    margin: 10px 0; }
 .contact address span {
-  display: block;
-  font-size: 14px; }
+  display: block; }
 .contact address.details span {
   margin-bottom: 10px; }
 

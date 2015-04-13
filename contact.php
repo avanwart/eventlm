@@ -41,7 +41,7 @@ Template Name: Contact
 						<div class="row">
 							<div class="col-sm-12">
 								<h3 class="text-center">Regulatory License Information</h3>
-								<table class="table table-striped table-bordered">
+								<table class="table table-bordered">
 									<tbody>
 										<tr>
 											<td class="text-center"><strong>TCP License</strong></td>
