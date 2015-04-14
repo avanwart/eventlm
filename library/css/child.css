@@ -1,7 +1,7 @@
 @charset "UTF-8";
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700");
+@import url("http://fonts.googleapis.com/css?family=Lato:400italic,400,300,600,700");
 h1, h2, h3, h4, h5 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 100;
   line-height: 1.3;
   margin-top: 0;
@@ -29,7 +29,7 @@ p {
 body {
   -webkit-font-smoothing: antialiased;
   padding-top: 80px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 16px;
   background: #f6f6f6; }
 
@@ -428,13 +428,13 @@ body.home .benefits {
     border: none;
     margin: 50px 0; }
 body.home .faq {
-  background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #26d0ce, #1a2980 90%); }
+  background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.2)), -webkit-linear-gradient(108deg, #516395 10%, #8d3d75 90%); }
   body.home .faq h1 {
     margin-bottom: 1em; }
   body.home .faq .panel-group {
     margin-bottom: 3em; }
 body.home .testimonials {
-  background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #26d0ce, #1a2980 90%); }
+  background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.2)), -webkit-linear-gradient(108deg, #516395 10%, #8d3d75 90%); }
   body.home .testimonials .thumbnail {
     position: relative;
     height: 130px;
@@ -636,7 +636,8 @@ section {
     right: 15px; }
   .standard h2 i, .standard h3 i {
     font-size: 0.65em;
-    top: 0; }
+    top: 0;
+    margin-right: 3px; }
   .standard .glyphicon.icon {
     float: right;
     border-radius: 50%;

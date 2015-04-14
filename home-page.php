@@ -134,7 +134,7 @@ Template Name: Home Page
   			<!-- CTA -->
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+						<button class="btn btn-lg btn-default" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 					</div>
 				</div>
 			</div>
