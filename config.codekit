@@ -3015,6 +3015,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/arrows-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4856,
+		"inputAbbreviatedPath": "\/library\/images\/arrows-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/arrows-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/bary-bauer.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3033,6 +3044,28 @@
 		"initialSize": 1889,
 		"inputAbbreviatedPath": "\/library\/images\/bid-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/bid-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bid-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4787,
+		"inputAbbreviatedPath": "\/library\/images\/bid-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/bid-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/bids-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4805,
+		"inputAbbreviatedPath": "\/library\/images\/bids-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/bids-icon2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3268,6 +3301,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/fan-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2624,
+		"inputAbbreviatedPath": "\/library\/images\/fan-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/fan-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/fan-icon3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7809,
+		"inputAbbreviatedPath": "\/library\/images\/fan-icon3.png",
+		"outputAbbreviatedPath": "\/library\/images\/fan-icon3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/fleet.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3378,6 +3433,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/imac-mockup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29381,
+		"inputAbbreviatedPath": "\/library\/images\/imac-mockup.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/imac-mockup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/levis-stadium-logo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3477,6 +3543,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/parking-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2301,
+		"inputAbbreviatedPath": "\/library\/images\/parking-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/parking-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/parking-management.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3495,6 +3572,17 @@
 		"initialSize": 4026,
 		"inputAbbreviatedPath": "\/library\/images\/pge-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/pge-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/piggy-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5238,
+		"inputAbbreviatedPath": "\/library\/images\/piggy-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/piggy-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3554,6 +3642,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/staffing-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4248,
+		"inputAbbreviatedPath": "\/library\/images\/staffing-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/staffing-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/traffic-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3561,6 +3660,17 @@
 		"initialSize": 1851,
 		"inputAbbreviatedPath": "\/library\/images\/traffic-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/traffic-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/traffic-icon2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5009,
+		"inputAbbreviatedPath": "\/library\/images\/traffic-icon2.png",
+		"outputAbbreviatedPath": "\/library\/images\/traffic-icon2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3616,6 +3726,17 @@
 		"initialSize": 1479,
 		"inputAbbreviatedPath": "\/library\/images\/up-arrow-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/up-arrow-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/vehicle-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3014,
+		"inputAbbreviatedPath": "\/library\/images\/vehicle-icon.png",
+		"outputAbbreviatedPath": "\/library\/images\/vehicle-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

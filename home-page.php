@@ -51,65 +51,217 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<section class="features" id="services">
+<section class="services" id="services">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<div class="row">
-					<div class="col-sm-12">
-						<h1>Headache-Free Event Logistics</h1>
-					</div>
-				</div>
-	    	<div class="row">
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_1'); ?>"><i class="icon planning"></i><?php the_field('feature_subhead_1'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_1'); ?></p>
-	    		</div>
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_2'); ?>"><i class="icon traffic"></i><?php the_field('feature_subhead_2'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_2'); ?></p>
-	    		</div>
-	    	</div>
-	    	<div class="row">
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_3'); ?>"><i class="icon budget"></i></i><?php the_field('feature_subhead_3'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_3'); ?></p>
-	    		</div>
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_4'); ?>"><i class="icon parking"></i><?php the_field('feature_subhead_4'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_4'); ?></p>
-	    		</div>
-	    	</div>
-	    	<div class="row">
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_5'); ?>"><i class="icon bus"></i><?php the_field('feature_subhead_5'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_5'); ?></p>
-	    		</div>
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_6'); ?>"><i class="icon bid"></i><?php the_field('feature_subhead_6'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_6'); ?></p>
-	    		</div>
-	    	</div>
-	    	<div class="row">
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_7'); ?>"><i class="icon staffing"></i><?php the_field('feature_subhead_7'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_7'); ?></p>
-	    		</div>
-	    		<div class="col-sm-6 col-lg-6">
-	    			<h3><a href="<?php the_field('feature_url_8'); ?>"><i class="icon fan"></i><?php the_field('feature_subhead_8'); ?></a></h3>
-	    			<p><?php the_field('feature_micro_text_8'); ?></p>
-	    		</div>
-	    	</div>
-	    	<!-- CTA -->
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
-					</div>
+			<div class="col-sm-12">
+				<h1>Headache-Free Event Transportation</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div role="tabpanel">
+
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#planning" aria-controls="home" role="tab" data-toggle="tab">Transportation Logistics Planning</a></li>
+				    <li role="presentation"><a href="#traffic" aria-controls="profile" role="tab" data-toggle="tab">Traffic Operations Management</a></li>
+				    <li role="presentation"><a href="#budget" aria-controls="messages" role="tab" data-toggle="tab">Budget Reduction <br class="hidden-xs"/>Services</a></li>
+				    <li role="presentation"><a href="#parking" aria-controls="settings" role="tab" data-toggle="tab">Parking <br class="hidden-xs"/>Solutions</a></li>
+				    <li role="presentation"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
+				  </ul>
+
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane fade in active" id="planning">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-sm-7">
+											<h2>Transportation Logistics Planning</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<ul>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+											</ul>
+											<p class="text-center">
+												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</p>
+										</div>
+										<div class="col-sm-5">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="traffic">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-sm-6">
+											<h2>Transportation Logistics Planning</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae labore officiis, voluptatibus debitis ab perspiciatis ratione, nulla aut repellendus ipsa deleniti, doloremque quam natus dicta harum maiores pariatur. Distinctio, ad?</p>
+											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										</div>
+										<div class="col-sm-6">
+											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="budget">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-sm-6">
+											<h2>Transportation Logistics Planning</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero atque, nihil voluptate laboriosam quaerat officia aut doloremque sint vel commodi ipsum, velit iste, accusantium, nulla voluptatibus impedit. Similique, consectetur, doloremque.</p>
+											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										</div>
+										<div class="col-sm-6">
+											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="parking">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-sm-6">
+											<h2>Transportation Logistics Planning</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo reprehenderit ipsam corporis expedita repellendus et eveniet fugit rem earum cumque quam molestiae optio, nulla dolores rerum eos voluptatibus veritatis accusamus.</p>
+											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										</div>
+										<div class="col-sm-6">
+											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+				    </div>
+				    <div role="tabpanel" class="tab-pane fade" id="vehicle">
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="row">
+										<div class="col-sm-6">
+											<h2>Transportation Logistics Planning</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nobis esse vero earum quos autem saepe, nisi ullam necessitatibus tenetur molestias delectus, quisquam soluta labore, odio quod, atque nulla dolorem!</p>
+											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										</div>
+										<div class="col-sm-6">
+											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+				    </div>
+				  </div>
+
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
+<?php /*<section class="features light" id="services">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="flat">More Than Just Transportation</h1>
+				<p class="text-center intro">Explore the many facets of our transportation logistics management services below.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon arrows" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="#">Transportation Logistics Planning</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon traffic" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Traffic Operations Management</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon piggy" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Budget Reduction Services</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon parking" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Parking Solutions</a></h3>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon vehicle" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Vehicle Procurement</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon bids" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Bid Preparation</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon staffing" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Staffing Solutions</a></h3>
+			</div>
+			<div class="col-sm-3 feature">
+				<a href="#" class="icon fan" data-toggle="tooltip" data-placement="top" title="Click to learn more about our transportation logistics planning.">&nbsp;</a>
+				<h3><a href="">Fan Transportation</a></h3>
+			</div>
+		</div>
+				<?php /*<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_1'); ?>"><i class="icon planning"></i><?php the_field('feature_subhead_1'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_1'); ?></p>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_2'); ?>"><i class="icon traffic"></i><?php the_field('feature_subhead_2'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_2'); ?></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_3'); ?>"><i class="icon budget"></i></i><?php the_field('feature_subhead_3'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_3'); ?></p>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_4'); ?>"><i class="icon parking"></i><?php the_field('feature_subhead_4'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_4'); ?></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_5'); ?>"><i class="icon bus"></i><?php the_field('feature_subhead_5'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_5'); ?></p>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_6'); ?>"><i class="icon bid"></i><?php the_field('feature_subhead_6'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_6'); ?></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_7'); ?>"><i class="icon staffing"></i><?php the_field('feature_subhead_7'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_7'); ?></p>
+					</div>
+					<div class="col-sm-6 col-lg-6">
+						<h3><a href="<?php the_field('feature_url_8'); ?>"><i class="icon fan"></i><?php the_field('feature_subhead_8'); ?></a></h3>
+						<p><?php the_field('feature_micro_text_8'); ?></p>
+					</div>
+				</div>
+				<!-- CTA -->
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<button class="btn btn-lg btn-default" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+					</div>
+				</div>
+			
+	</div>
+</section> */ ?>
 <section class="testimonials light" id="testimonials">
 	<div class="container">
 		<div class="row">
@@ -120,18 +272,18 @@ Template Name: Home Page
 		<?php if(get_field('testimonials')): ?>
 		<div class="row">
 			<?php while(has_sub_field('testimonials')): ?>
-      <div class="col-sm-4 text-center">
+			<div class="col-sm-4 text-center">
 				<img class="thumbnail img-circle" src="<?php the_sub_field('headshot'); ?>" alt="">
-  			<blockquote>
-      		<?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <?php the_sub_field('company'); ?></small>
-      	</blockquote>
-      </div>
-      <?php endwhile; ?>
-    </div>
-  	<?php endif; ?>
-  	<div class="row">
+				<blockquote>
+					<?php the_sub_field('quote'); ?> <small><?php the_sub_field('name'); ?>, <?php the_sub_field('company'); ?></small>
+				</blockquote>
+			</div>
+			<?php endwhile; ?>
+		</div>
+		<?php endif; ?>
+		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
-  			<!-- CTA -->
+				<!-- CTA -->
 				<div class="row">
 					<div class="col-sm-12 text-center">
 						<button class="btn btn-lg btn-default" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
@@ -218,19 +370,19 @@ Template Name: Home Page
 					<?php while(has_sub_field('faq')): ?>
 
 						<div class="panel panel-default">
-					    <div class="panel-heading">
-					      <h4 class="panel-title">
-					        <a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_sub_field('id'); ?>" class="collapsed">
-					          <i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i>	<?php the_sub_field('question'); ?>
-					        </a>
-					      </h4>
-					    </div>
-					    <div id="collapse<?php the_sub_field('id'); ?>" class="panel-collapse collapse">
-					      <div class="panel-body">
-					        <?php the_sub_field('answer'); ?>
-					      </div>
-					    </div>
-					  </div>
+							<div class="panel-heading">
+								<h4 class="panel-title">
+									<a data-toggle="collapse" data-parent="#accordion" href="#collapse<?php the_sub_field('id'); ?>" class="collapsed">
+										<i class="glyphicon glyphicon-plus"></i><i class="glyphicon glyphicon-minus"></i>	<?php the_sub_field('question'); ?>
+									</a>
+								</h4>
+							</div>
+							<div id="collapse<?php the_sub_field('id'); ?>" class="panel-collapse collapse">
+								<div class="panel-body">
+									<?php the_sub_field('answer'); ?>
+								</div>
+							</div>
+						</div>
 				
 					<?php endwhile; ?>
 				
@@ -249,6 +401,12 @@ Template Name: Home Page
 </section>
 <script>
 	jQuery(document).ready(function($){
+
+		// Tooltips
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		});
+
 		// Accordion
 		$('#collapse1').addClass('in').parent().find('.panel-heading a').removeClass('collapsed');
 
@@ -261,7 +419,7 @@ Template Name: Home Page
 		var userAgent = window.navigator.userAgent;
 
 		if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i)) {
-		  $('.signup').smoothScroll({
+			$('.signup').smoothScroll({
 				offset: 260,
 				easing: 'swing',
 				beforeScroll: function() {
@@ -277,7 +435,7 @@ Template Name: Home Page
 			});
 		}
 		else {
-		  $('.signup').smoothScroll({
+			$('.signup').smoothScroll({
 				offset: -100,
 				easing: 'swing',
 				afterScroll: function() {
@@ -291,11 +449,11 @@ Template Name: Home Page
 		
 
 		$('#service').bind('change', function(){
-	    if( $(this).val() !== "" ){
-	      $(this).addClass('valid').removeClass('hot');
-	    } else {
-	      $(this).removeClass('valid');
-	    }
+			if( $(this).val() !== "" ){
+				$(this).addClass('valid').removeClass('hot');
+			} else {
+				$(this).removeClass('valid');
+			}
 		});
 
 		// Quick Quote Form Field Functionality
