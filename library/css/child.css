@@ -482,6 +482,8 @@ body.home {
           color: #20beff; }
       body.home .services .tab-pane .col-sm-5 {
         text-align: center; }
+      body.home .services .tab-pane.parking img {
+        max-width: 110%; }
       body.home .services .tab-pane.traffic img {
         max-width: 110%;
         margin-top: 45px; }
