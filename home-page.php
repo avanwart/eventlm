@@ -73,15 +73,14 @@ Template Name: Home Page
 
 				  <!-- Tab panes -->
 				  <div class="tab-content">
-				    <div role="tabpanel" class="tab-pane fade in active" id="planning">
+				    <div role="tabpanel" class="tab-pane fade in active planning" id="planning">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit illum quam debitis.</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
 												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
 												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
 												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
@@ -102,13 +101,22 @@ Template Name: Home Page
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
-										<div class="col-sm-6">
-											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae labore officiis, voluptatibus debitis ab perspiciatis ratione, nulla aut repellendus ipsa deleniti, doloremque quam natus dicta harum maiores pariatur. Distinctio, ad?</p>
-											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										<div class="col-sm-7">
+											<h2>Traffic Operations Management</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit llum quam debitis, praesentium consectetur quidem.</p>
+											<ul>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+											</ul>
+											<p class="text-center">
+												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</p>
 										</div>
-										<div class="col-sm-6">
-											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										<div class="col-sm-5">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -118,13 +126,22 @@ Template Name: Home Page
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
-										<div class="col-sm-6">
-											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero atque, nihil voluptate laboriosam quaerat officia aut doloremque sint vel commodi ipsum, velit iste, accusantium, nulla voluptatibus impedit. Similique, consectetur, doloremque.</p>
-											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										<div class="col-sm-7">
+											<h2>Budget Reduction Services</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<ul>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+											</ul>
+											<p class="text-center">
+												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</p>
 										</div>
-										<div class="col-sm-6">
-											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										<div class="col-sm-5">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -134,13 +151,22 @@ Template Name: Home Page
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
-										<div class="col-sm-6">
-											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo reprehenderit ipsam corporis expedita repellendus et eveniet fugit rem earum cumque quam molestiae optio, nulla dolores rerum eos voluptatibus veritatis accusamus.</p>
-											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										<div class="col-sm-7">
+											<h2>Parking Solutions</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<ul>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+											</ul>
+											<p class="text-center">
+												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</p>
 										</div>
-										<div class="col-sm-6">
-											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										<div class="col-sm-5">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -150,13 +176,22 @@ Template Name: Home Page
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
-										<div class="col-sm-6">
-											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab nobis esse vero earum quos autem saepe, nisi ullam necessitatibus tenetur molestias delectus, quisquam soluta labore, odio quod, atque nulla dolorem!</p>
-											<p class="text-center"><a href="#" class="btn btn-lg btn-primary">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a></p>
+										<div class="col-sm-7">
+											<h2>Vehicle Procurement</h2>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<ul>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+											</ul>
+											<p class="text-center">
+												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</p>
 										</div>
-										<div class="col-sm-6">
-											<img src="http://placehold.it/640x480" class="img-thumbnail img-responsive" alt="">
+										<div class="col-sm-5">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -293,7 +328,7 @@ Template Name: Home Page
 		</div>
 	</div>
 </section>
-<section class="benefits">
+<?php /*<section class="benefits">
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-lg-offset-1">
@@ -305,8 +340,8 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/budget-scoping.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
+							<div class="col-sm-4"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/budget-scoping.jpg" alt=""></div>
+							<div class="col-sm-8">
 								<h2><?php the_field('benefits_subhead_1'); ?></h2>
 								<p><?php the_field('benefits_micro_text_1'); ?></p>
 							</div>
@@ -314,8 +349,8 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/parking-management.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
+							<div class="col-sm-4"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/parking-management.jpg" alt=""></div>
+							<div class="col-sm-8">
 								<h2><?php the_field('benefits_subhead_2'); ?></h2>
 								<p><?php the_field('benefits_micro_text_2'); ?></p>
 							</div>
@@ -326,8 +361,8 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/end-to-end.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
+							<div class="col-sm-4"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/end-to-end.jpg" alt=""></div>
+							<div class="col-sm-8">
 								<h2><?php the_field('benefits_subhead_3'); ?></h2>
 								<p><?php the_field('benefits_micro_text_3'); ?></p>
 							</div>
@@ -335,8 +370,8 @@ Template Name: Home Page
 					</div>
 					<div class="col-sm-6">
 						<div class="row">
-							<div class="col-sm-4 col-lg-5"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/fleet.jpg" alt=""></div>
-							<div class="col-sm-8 col-lg-7">
+							<div class="col-sm-4"><img class="img-responsive img-thumbnail" src="<?php bloginfo('template_directory'); ?>/library/images/fleet.jpg" alt=""></div>
+							<div class="col-sm-8">
 								<h2><?php the_field('benefits_subhead_4'); ?></h2>
 								<p><?php the_field('benefits_micro_text_4'); ?></p>
 							</div>
@@ -353,7 +388,7 @@ Template Name: Home Page
 			</div>
 		</div>
 	</div>
-</section>
+</section> */ ?>
 <section class="faq light">
 	<div class="container">
 		<div class="row">
