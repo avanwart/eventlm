@@ -79,11 +79,13 @@ Template Name: Home Page
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Transportation Logistics Planning</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit illum quam debitis.</p>
+											<p>ELM coordinators will produce a complete A to Z plan that encompasses:</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Scope of work identification</li>
+												<li>City impact and Traffic management plan</li>
+												<li>Operational and Communication system</li>
+												<li>Customized routing design</li>
+												<li>Budget Forecasting</li>
 											</ul>
 											<p class="text-center">
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
@@ -97,18 +99,17 @@ Template Name: Home Page
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade" id="traffic">
+				    <div role="tabpanel" class="tab-pane fade traffic" id="traffic">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Traffic Operations Management</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit llum quam debitis, praesentium consectetur quidem.</p>
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit illum quam debitis.</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Assistance in securing permits for street closures and load zones</li>
+												<li>Operator monitoring center with realtime traffic reporting</li>
+												<li>Crowd and safety management</li>
 											</ul>
 											<p class="text-center">
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
@@ -116,74 +117,62 @@ Template Name: Home Page
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/map-routes.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade" id="budget">
+				    <div role="tabpanel" class="tab-pane fade budget" id="budget">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Budget Reduction Services</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
-											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-											</ul>
+											<p>With a database of over 1200 vendors and partners, we can ensure that the right equipment and services are delivered to our client at the right price.  Through proven relationships and industry standing, Event Logistics Management has the ability to secure vehicles of all types at below market value.  These relationships significantly reduce operational costs for our clients and also for passengers.</p>
 											<p class="text-center">
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/piggy-bank-calculator.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade" id="parking">
+				    <div role="tabpanel" class="tab-pane fade parking" id="parking">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Parking Solutions</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
-											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-											</ul>
+											<p>As part of the event experience, the Event Logistics Management team will become familiar and comfortable with the venue layout, parking facilities and shuttle drop and load zone opportunities.  We will work alongside city and local agencies to optimize ingress and egress for the event, and produce a solution which reduces the impact of the event to its guests and the local community.</p>
 											<p class="text-center">
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/parking-lot.jpg" class="img-thumbnail img-responsive" alt="">
 										</div>
 									</div>
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade" id="vehicle">
+				    <div role="tabpanel" class="tab-pane fade vehicle" id="vehicle">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Vehicle Procurement</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quam debitis, praesentium consectetur quidem.</p>
+											<p>Through strong relationships and our industry standing, we can ensure that the right equipment is delivered to our client at the right price.</p>
 											<ul>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
-												<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </li>
+												<li>Motor Coaches and Shuttles</li>
+												<li>School Buses</li>
+												<li>Public Transit Buses (FTA License and Insurance Qualifications)</li>
+												<li>Sedan, SUV, Limousines and Vans</li>
 											</ul>
 											<p class="text-center">
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a Free Consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
@@ -191,7 +180,7 @@ Template Name: Home Page
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/shuttle-bus.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
