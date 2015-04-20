@@ -3015,6 +3015,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/aerial-hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191457,
+		"inputAbbreviatedPath": "\/library\/images\/aerial-hero-bg.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/aerial-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/aerial-hero-bg2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 231200,
+		"inputAbbreviatedPath": "\/library\/images\/aerial-hero-bg2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/aerial-hero-bg2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/arrows-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3275,6 +3297,39 @@
 		"initialSize": 14760,
 		"inputAbbreviatedPath": "\/library\/images\/eventlm-logo-new-2x.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/eventlm-logo-new-2x.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/events-montage-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53068,
+		"inputAbbreviatedPath": "\/library\/images\/events-montage-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/events-montage-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/events-montage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 89820,
+		"inputAbbreviatedPath": "\/library\/images\/events-montage.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/events-montage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/events-montage2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 97041,
+		"inputAbbreviatedPath": "\/library\/images\/events-montage2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/events-montage2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3671,6 +3726,28 @@
 		"initialSize": 1547,
 		"inputAbbreviatedPath": "\/library\/images\/sports-icon.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/sports-icon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/stadium-aerial.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 731813,
+		"inputAbbreviatedPath": "\/library\/images\/stadium-aerial.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/stadium-aerial.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/stadium-crowd.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87879,
+		"inputAbbreviatedPath": "\/library\/images\/stadium-crowd.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/stadium-crowd.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
