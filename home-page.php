@@ -60,7 +60,14 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<div role="tabpanel">
+				<ul class="visible-xs">
+					<li><a href="#">Transportation Logistics Planning</a></li>
+					<li><a href="#">Traffic Operations Management</a></li>
+					<li><a href="#">Budget Reduction Services</a></li>
+					<li><a href="#">Parking Solutions</a></li>
+					<li><a href="#">Vehicle Procurement</a></li>
+				</ul>
+				<div role="tabpanel" class="hidden-xs">
 				  <!-- Nav tabs -->
 				  <ul class="nav nav-tabs" role="tablist">
 				    <li role="presentation" class="active"><a href="#planning" aria-controls="home" role="tab" data-toggle="tab">Transportation Logistics Planning</a></li>
@@ -71,7 +78,7 @@ Template Name: Home Page
 				  </ul>
 				  <!-- Tab panes -->
 				  <div class="tab-content">
-				    <div role="tabpanel" class="tab-pane fade in active planning" id="planning">
+				    <div role="tabpanel" class="tab-pane active planning" id="planning">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -97,7 +104,7 @@ Template Name: Home Page
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade traffic" id="traffic">
+				    <div role="tabpanel" class="tab-pane traffic" id="traffic">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -121,7 +128,7 @@ Template Name: Home Page
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade budget" id="budget">
+				    <div role="tabpanel" class="tab-pane budget" id="budget">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -140,7 +147,7 @@ Template Name: Home Page
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade parking" id="parking">
+				    <div role="tabpanel" class="tab-pane parking" id="parking">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -159,7 +166,7 @@ Template Name: Home Page
 								</div>
 							</div>
 				    </div>
-				    <div role="tabpanel" class="tab-pane fade vehicle" id="vehicle">
+				    <div role="tabpanel" class="tab-pane vehicle" id="vehicle">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
