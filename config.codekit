@@ -3719,6 +3719,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/split-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184061,
+		"inputAbbreviatedPath": "\/library\/images\/split-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/split-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/sports-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

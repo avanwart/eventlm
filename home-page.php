@@ -8,27 +8,15 @@ Template Name: Home Page
 <section class="hero light" id="hero">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 text-center">
+			<div class="col-sm-6">
 				<h1><?php the_field('hero_headline'); ?></h1>
-				<!-- <p class="text-center"><?php the_field('hero_subhead'); ?></p> -->
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1">
-						<ul>
-							<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
-							<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
-							<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
-						</ul>
-					</div>
-				</div>
-				<!-- CTA -->
-				<div class="row">
-					<div class="col-sm-12">
-						<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
-					</div>
+				<ul>
+					<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+					<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+					<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+				</ul>
+				<div class="text-center">
+					<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 				</div>
 			</div>
 		</div>
@@ -93,8 +81,8 @@ Template Name: Home Page
 												<li>Budget Forecasting</li>
 											</ul>
 											<p class="text-center">
+												<a href="#" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
-												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -117,8 +105,8 @@ Template Name: Home Page
 												<li>Crowd and safety management</li>
 											</ul>
 											<p class="text-center">
+												<a href="#" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
-												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -136,8 +124,8 @@ Template Name: Home Page
 											<h2>Budget Reduction Services</h2>
 											<p>With a database of over 1200 vendors and partners, we can ensure that the right equipment and services are delivered to our client at the right price.  Through proven relationships and industry standing, Event Logistics Management has the ability to secure vehicles of all types at below market value.  These relationships significantly reduce operational costs for our clients and also for passengers.</p>
 											<p class="text-center">
+												<a href="#" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
-												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -155,8 +143,8 @@ Template Name: Home Page
 											<h2>Parking Solutions</h2>
 											<p>As part of the event experience, the Event Logistics Management team will become familiar and comfortable with the venue layout, parking facilities and shuttle drop and load zone opportunities.  We will work alongside city and local agencies to optimize ingress and egress for the event, and produce a solution which reduces the impact of the event to its guests and the local community.</p>
 											<p class="text-center">
+												<a href="#" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
-												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -180,8 +168,8 @@ Template Name: Home Page
 												<li>Sedan, SUV, Limousines and Vans</li>
 											</ul>
 											<p class="text-center">
+												<a href="#" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
-												<a href="#" class="btn btn-lg btn-default">Learn more <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -250,9 +238,12 @@ Template Name: Home Page
 							<li>Disaster Relief</li>
 							<li>Government Services</li>
 							<li>Marathons</li>
-							<li><a href="events">Learn more&rarr;</a></li>
+							<li>Endurance Challenges</li>
 						</ul>
-						<div class="text-center"><a href="#" class="btn btn-lg btn-primary">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a></div>
+						<div class="text-center">
+							<a href="?page_id=4" class="btn btn-lg btn-default">Learn more </a>
+							<a href="#" class="btn btn-lg btn-primary">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+						</div>
 					</div>
 					<div class="col-sm-5">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/events-montage-2.jpg" alt="" class="img-responsive">

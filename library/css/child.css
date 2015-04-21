@@ -265,15 +265,16 @@ body.home section {
 body.home .hero {
   position: relative;
   padding: 2em 0;
-  background: url("../images/aerial-hero-bg2.jpg") 50% 100% no-repeat;
+  background: url("../images/split-hero.jpg") 50% 100% no-repeat;
   background-size: cover;
   height: auto; }
   body.home .hero h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 48px;
-    margin: 20px 0 40px;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+    font-size: 38px;
+    margin: 20px 0 30px;
+    color: #212121;
+    text-shadow: none; }
   body.home .hero p {
     text-align: center;
     font-weight: normal;
@@ -283,12 +284,13 @@ body.home .hero {
   body.home .hero ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 30px 0; }
+    margin: 0 0 30px; }
     body.home .hero ul li {
+      font-size: 20px;
       text-align: center;
-      font-size: 24px;
       margin-bottom: 15px;
-      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4); }
+      color: #212121;
+      text-shadow: none; }
       body.home .hero ul li i {
         font-size: 0.75em;
         margin-right: 4px; }
@@ -391,8 +393,15 @@ body.home .events ul {
     float: left;
     width: 50%;
     font-size: 18px; }
-    body.home .events ul li:last-child {
-      list-style-type: none; }
+body.home .events .btn-default {
+  border: none;
+  background: transparent;
+  color: #00a7ec; }
+  body.home .events .btn-default:hover {
+    border: none;
+    background: transparent;
+    color: #0083b9;
+    text-decoration: underline; }
 body.home .testimonials {
   background: -webkit-radial-gradient(closest-corner, rgba(16, 47, 70, 0) 60%, rgba(16, 47, 70, 0.26)), -webkit-linear-gradient(108deg, #333333, #555555 90%); }
   body.home .testimonials .thumbnail {
