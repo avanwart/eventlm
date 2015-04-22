@@ -48,13 +48,15 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<ul class="visible-xs">
-					<li><a href="#">Transportation Logistics Planning</a></li>
-					<li><a href="#">Traffic Operations Management</a></li>
-					<li><a href="#">Budget Reduction Services</a></li>
-					<li><a href="#">Parking Solutions</a></li>
-					<li><a href="#">Vehicle Procurement</a></li>
-				</ul>
+				<div class="text-center">
+					<ul class="visible-xs">
+						<li><a href="#">Transportation Logistics Planning</a></li>
+						<li><a href="#">Traffic Operations Management</a></li>
+						<li><a href="#">Budget Reduction Services</a></li>
+						<li><a href="#">Parking Solutions</a></li>
+						<li><a href="#">Vehicle Procurement</a></li>
+					</ul>
+				</div>
 				<div role="tabpanel" class="hidden-xs">
 				  <!-- Nav tabs -->
 				  <ul class="nav nav-tabs" role="tablist">
