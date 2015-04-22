@@ -2959,15 +2959,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/library\/css\/child.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/css\/child.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -4893,22 +4884,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/sass\/_header.sass",
 		"outputAbbreviatedPath": "\/library\/css\/_header.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": false
-		},
-	"\/library\/sass\/_home-page.sass": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 2,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/library\/sass\/_home-page.sass",
-		"outputAbbreviatedPath": "\/library\/css\/_home-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
