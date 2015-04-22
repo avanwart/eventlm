@@ -202,7 +202,7 @@ form.intake-form .form-group {
     background: url("../images/eventlm-logo-new-2x.jpg") center 18px no-repeat;
     background-size: 160px auto; }
   .navbar-default .navbar-collapse {
-    margin: 18px 0; }
+    margin: 26px 0; }
     .navbar-default .navbar-collapse .navbar-nav li a {
       color: #444444;
       font-size: 16px;
@@ -215,7 +215,7 @@ form.intake-form .form-group {
       background: transparent; }
   .navbar-default .telephone {
     float: right;
-    margin: 0 0 0 20px; }
+    margin: 8px 0 0 20px; }
     .navbar-default .telephone .navbar-nav {
       margin: 0; }
       .navbar-default .telephone .navbar-nav li {
@@ -287,7 +287,7 @@ body.home .hero {
     margin: 0 0 30px; }
     body.home .hero ul li {
       font-size: 20px;
-      text-align: center;
+      text-align: left;
       margin-bottom: 15px;
       color: #212121;
       text-shadow: none; }
