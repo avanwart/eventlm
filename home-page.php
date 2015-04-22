@@ -10,11 +10,13 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-6">
 				<h1><?php the_field('hero_headline'); ?></h1>
-				<ul>
-					<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
-					<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
-					<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
-				</ul>
+				<div class="text-center">
+					<ul>
+						<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+						<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+						<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+					</ul>
+				</div>
 				<div class="text-center">
 					<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 				</div>
@@ -48,15 +50,13 @@ Template Name: Home Page
 		</div>
 		<div class="row">
 			<div class="col-sm-12">
-				<div class="text-center">
-					<ul class="visible-xs">
-						<li><a href="#">Transportation Logistics Planning</a></li>
-						<li><a href="#">Traffic Operations Management</a></li>
-						<li><a href="#">Budget Reduction Services</a></li>
-						<li><a href="#">Parking Solutions</a></li>
-						<li><a href="#">Vehicle Procurement</a></li>
-					</ul>
-				</div>
+				<ul class="visible-xs">
+					<li><a href="#">Transportation Logistics Planning</a></li>
+					<li><a href="#">Traffic Operations Management</a></li>
+					<li><a href="#">Budget Reduction Services</a></li>
+					<li><a href="#">Parking Solutions</a></li>
+					<li><a href="#">Vehicle Procurement</a></li>
+				</ul>
 				<div role="tabpanel" class="hidden-xs">
 				  <!-- Nav tabs -->
 				  <ul class="nav nav-tabs" role="tablist">
