@@ -3499,6 +3499,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/hero-split-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140178,
+		"inputAbbreviatedPath": "\/library\/images\/hero-split-3.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-split-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/hero-split-lightgrey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138961,
+		"inputAbbreviatedPath": "\/library\/images\/hero-split-lightgrey.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-split-lightgrey.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/imac-mockup.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
