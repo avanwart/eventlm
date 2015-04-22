@@ -284,7 +284,8 @@ body.home .hero {
   body.home .hero ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 30px; }
+    margin: 0 0 30px;
+    display: inline-block; }
     body.home .hero ul li {
       font-size: 20px;
       text-align: left;

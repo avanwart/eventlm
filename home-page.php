@@ -43,7 +43,7 @@ Template Name: Home Page
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1>Headache-Free Event Transportation</h1>
+				<h1>Major Events Made Easy</h1>
 			</div>
 		</div>
 		<div class="row">
@@ -222,7 +222,7 @@ Template Name: Home Page
 			<div class="col-md-11 col-md-offset-1">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1>Major Events Made Easy</h1>
+						<h1>Headache-Free Event Transportation</h1>
 					</div>
 				</div>
 				<div class="row">
