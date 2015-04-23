@@ -33,6 +33,30 @@ Template Name: Home Page
 					</div>
 				</div>
 			</div>
+			<div class="item dreamforce">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						Transportation management for DreamForce - That was us.
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="item oracle">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
@@ -61,30 +85,6 @@ Template Name: Home Page
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
 						49ers vs. Patriots - Fall 2014
-					</div>
-				</div>
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-6">
-							<h1><?php the_field('hero_headline'); ?></h1>
-							<div class="text-center">
-								<ul>
-									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
-									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
-									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
-								</ul>
-							</div>
-							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="item dreamforce">
-				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
-						SalesForce's massive DreamForce convention - 2014.
 					</div>
 				</div>
 				<div class="container">
