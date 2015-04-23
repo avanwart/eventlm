@@ -2959,6 +2959,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/library\/css\/child.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/css\/child.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/library\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -3222,6 +3231,17 @@
 		"initialSize": 21571,
 		"inputAbbreviatedPath": "\/library\/images\/dreamforce-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/dreamforce-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/dreamforce-split.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 136876,
+		"inputAbbreviatedPath": "\/library\/images\/dreamforce-split.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dreamforce-split.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3534,6 +3554,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/levis-stadium-split.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 221192,
+		"inputAbbreviatedPath": "\/library\/images\/levis-stadium-split.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/levis-stadium-split.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/like-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3618,6 +3649,17 @@
 		"initialSize": 10202,
 		"inputAbbreviatedPath": "\/library\/images\/oracle-racing-logo.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/oracle-racing-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/oracle-racing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93992,
+		"inputAbbreviatedPath": "\/library\/images\/oracle-racing.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/oracle-racing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3936,6 +3978,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/js\/libs\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/libs\/min\/bootstrap.min-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/libs\/min\/bootstrap.min-min.js",
+		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/min\/bootstrap.min-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -4884,6 +4937,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/sass\/_header.sass",
 		"outputAbbreviatedPath": "\/library\/css\/_header.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/library\/sass\/_home-page.sass": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/sass\/_home-page.sass",
+		"outputAbbreviatedPath": "\/library\/css\/_home-page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

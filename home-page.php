@@ -6,7 +6,118 @@ Template Name: Home Page
 
 <?php get_header(); ?>	
 <section class="hero light" id="hero">
-	<div class="container">
+	<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active stadium">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						We handle everything from budgeting to the actual ride.
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item oracle">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						Oracle Racing at America's Cup regatta - 2014.
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item levis">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						49ers vs. Patriots - Fall 2014
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item dreamforce">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						SalesForce's massive DreamForce convention - 2014.
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Controls -->
+		<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	<?php /*<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
 				<h1><?php the_field('hero_headline'); ?></h1>
@@ -22,7 +133,7 @@ Template Name: Home Page
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> */ ?>
 </section>
 <section class="logos lightGrey">
 	<div class="container">
@@ -58,17 +169,17 @@ Template Name: Home Page
 					<li><a href="#">Vehicle Procurement</a></li>
 				</ul>
 				<div role="tabpanel" class="hidden-xs">
-				  <!-- Nav tabs -->
-				  <ul class="nav nav-tabs" role="tablist">
-				    <li role="presentation" class="active"><a href="#planning" aria-controls="home" role="tab" data-toggle="tab">Transportation Logistics Planning</a></li>
-				    <li role="presentation"><a href="#traffic" aria-controls="profile" role="tab" data-toggle="tab">Traffic Operations Management</a></li>
-				    <li role="presentation"><a href="#budget" aria-controls="messages" role="tab" data-toggle="tab">Budget Reduction <br class="hidden-xs"/>Services</a></li>
-				    <li role="presentation"><a href="#parking" aria-controls="settings" role="tab" data-toggle="tab">Parking <br class="hidden-xs"/>Solutions</a></li>
-				    <li role="presentation"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
-				  </ul>
-				  <!-- Tab panes -->
-				  <div class="tab-content">
-				    <div role="tabpanel" class="tab-pane active planning" id="planning">
+					<!-- Nav tabs -->
+					<ul class="nav nav-tabs" role="tablist">
+						<li role="presentation" class="active"><a href="#planning" aria-controls="home" role="tab" data-toggle="tab">Transportation Logistics Planning</a></li>
+						<li role="presentation"><a href="#traffic" aria-controls="profile" role="tab" data-toggle="tab">Traffic Operations Management</a></li>
+						<li role="presentation"><a href="#budget" aria-controls="messages" role="tab" data-toggle="tab">Budget Reduction <br class="hidden-xs"/>Services</a></li>
+						<li role="presentation"><a href="#parking" aria-controls="settings" role="tab" data-toggle="tab">Parking <br class="hidden-xs"/>Solutions</a></li>
+						<li role="presentation"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
+					</ul>
+					<!-- Tab panes -->
+					<div class="tab-content">
+						<div role="tabpanel" class="tab-pane active planning" id="planning">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -93,8 +204,8 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-				    </div>
-				    <div role="tabpanel" class="tab-pane traffic" id="traffic">
+						</div>
+						<div role="tabpanel" class="tab-pane traffic" id="traffic">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -117,8 +228,8 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-				    </div>
-				    <div role="tabpanel" class="tab-pane budget" id="budget">
+						</div>
+						<div role="tabpanel" class="tab-pane budget" id="budget">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -136,8 +247,8 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-				    </div>
-				    <div role="tabpanel" class="tab-pane parking" id="parking">
+						</div>
+						<div role="tabpanel" class="tab-pane parking" id="parking">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -155,8 +266,8 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-				    </div>
-				    <div role="tabpanel" class="tab-pane vehicle" id="vehicle">
+						</div>
+						<div role="tabpanel" class="tab-pane vehicle" id="vehicle">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
@@ -180,8 +291,8 @@ Template Name: Home Page
 									</div>
 								</div>
 							</div>
-				    </div>
-				  </div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -257,6 +368,8 @@ Template Name: Home Page
 </section>
 <script>
 	jQuery(document).ready(function($){
+
+		$('.carousel').carousel();
 
 		// Tooltips
 		$(function () {
@@ -338,8 +451,6 @@ Template Name: Home Page
 				window.location = "quick-quote-thank-you"
 			}
 		});
-
-		$('.carousel').carousel();
 
 	});
 </script>
