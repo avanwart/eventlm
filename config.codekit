@@ -3235,6 +3235,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/dreamforce-split-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88923,
+		"inputAbbreviatedPath": "\/library\/images\/dreamforce-split-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dreamforce-split-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/dreamforce-split.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3517,6 +3528,17 @@
 		"initialSize": 140178,
 		"inputAbbreviatedPath": "\/library\/images\/hero-split-3.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/hero-split-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/hero-split-darkgrey.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 138744,
+		"inputAbbreviatedPath": "\/library\/images\/hero-split-darkgrey.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/hero-split-darkgrey.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

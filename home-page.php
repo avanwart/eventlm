@@ -12,7 +12,7 @@ Template Name: Home Page
 			<div class="item active stadium">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						We handle everything from budgeting to the actual ride.
+						We handle everything from budgeting to the actual ride; even parking.
 					</div>
 				</div>
 				<div class="container">
