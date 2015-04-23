@@ -36,7 +36,7 @@ Template Name: Home Page
 			<div class="item dreamforce">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation management for DreamForce? That was us.
+						Transportation management for DreamForce? That was us!
 					</div>
 				</div>
 				<div class="container">
@@ -60,7 +60,7 @@ Template Name: Home Page
 			<div class="item oracle">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation logistics for America's Cup?  Yup, us.
+						Transportation logistics for America's Cup?  Yup, us!
 					</div>
 				</div>
 				<div class="container">
@@ -84,7 +84,31 @@ Template Name: Home Page
 			<div class="item levis">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Thousands of fans ride with us to 49ers games.
+						Transporting thousands of 49ers fans to home games?  Done.
+					</div>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6">
+							<h1><?php the_field('hero_headline'); ?></h1>
+							<div class="text-center">
+								<ul>
+									<li><i class="glyphicon glyphicon-ok"></i> National Event Consulting Services</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Transportation Logistics Planning</li>
+									<li><i class="glyphicon glyphicon-ok"></i> Parking Management</li>
+								</ul>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item marathon">
+				<div class="row">
+					<div class="col-sm-6 col-sm-offset-6 caption">
+						Marathon logistics for Bay to Breakers?  Check!
 					</div>
 				</div>
 				<div class="container">

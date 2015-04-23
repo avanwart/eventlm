@@ -3653,6 +3653,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/marathon-split.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94794,
+		"inputAbbreviatedPath": "\/library\/images\/marathon-split.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/marathon-split.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/music-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
