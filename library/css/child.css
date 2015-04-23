@@ -365,7 +365,7 @@ body.home .hero {
     body.home .hero .carousel-fade .item.stadium {
       background: url("../images/hero-split-lightgrey.jpg") 50% 100% no-repeat;
       background-size: cover; }
-      body.home .hero .carousel-fade .item.stadium .carousel-fade .caption {
+      body.home .hero .carousel-fade .item.stadium .caption {
         background: rgba(0, 0, 0, 0.4); }
     body.home .hero .carousel-fade .item.levis {
       background: url("../images/levis-stadium-split.jpg") 50% 100% no-repeat;
