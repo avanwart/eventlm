@@ -12,7 +12,7 @@ Template Name: Home Page
 			<div class="item active stadium">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						We handle everything from budgeting to the actual ride; even parking.
+						Kentucky University football program relies on ELM.
 					</div>
 				</div>
 				<div class="container">
@@ -36,7 +36,7 @@ Template Name: Home Page
 			<div class="item dreamforce">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation management for DreamForce? Yes, that was us.
+						DreamForce relies on ELM.
 					</div>
 				</div>
 				<div class="container">
@@ -60,7 +60,7 @@ Template Name: Home Page
 			<div class="item oracle">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation logistics for America's Cup?  Yup, us!
+						ELM provided budgeting, traffic management and <br>rides for Oracle Racing at the America's Cup.
 					</div>
 				</div>
 				<div class="container">
@@ -84,7 +84,7 @@ Template Name: Home Page
 			<div class="item levis">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transporting thousands of 49ers fans to home games?  Done.
+						ELM gets thousands of 49ers fans to the game on time.
 					</div>
 				</div>
 				<div class="container">
@@ -108,7 +108,7 @@ Template Name: Home Page
 			<div class="item marathon">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Marathon logistics for Bay to Breakers?  Check!
+						ELM handles safety and logistics for Bay to Breakers.
 					</div>
 				</div>
 				<div class="container">
