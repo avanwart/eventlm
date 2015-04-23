@@ -36,7 +36,7 @@ Template Name: Home Page
 			<div class="item dreamforce">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation management for DreamForce? That was us!
+						Transportation management for DreamForce? Yes, that was us.
 					</div>
 				</div>
 				<div class="container">

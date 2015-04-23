@@ -294,20 +294,20 @@ a.carousel-control.right {
       background: transparent; }
   .navbar-default .telephone {
     float: right;
-    margin: 8px 0 0 20px; }
+    margin: 6px 0 0 20px; }
     .navbar-default .telephone .navbar-nav {
       margin: 0; }
       .navbar-default .telephone .navbar-nav li {
         padding: 10px;
         color: #444444;
-        font-size: 13px;
+        font-size: 14px;
         text-align: center; }
         .navbar-default .telephone .navbar-nav li em {
           font-style: normal;
           font-weight: bold;
           color: #212121;
           display: block;
-          font-size: 19px;
+          font-size: 20px;
           vertical-align: baseline;
           margin-bottom: -4px; }
 
@@ -355,8 +355,9 @@ body.home .hero {
     bottom: 0;
     padding: 20px 0;
     text-align: center;
+    font-size: 16px;
     font-weight: 600;
-    background: rgba(0, 0, 0, 0.6); }
+    background: rgba(0, 0, 0, 0.65); }
   body.home .hero .carousel-fade .carousel-control.left {
     display: none; }
   body.home .hero .carousel-fade .carousel-inner {
@@ -367,7 +368,7 @@ body.home .hero {
       background: url("../images/hero-split-lightgrey.jpg") 50% 100% no-repeat;
       background-size: cover; }
       body.home .hero .carousel-fade .item.stadium .caption {
-        background: rgba(0, 0, 0, 0.4); }
+        background: rgba(0, 0, 0, 0.5); }
     body.home .hero .carousel-fade .item.levis {
       background: url("../images/levis-stadium-split.jpg") 50% 100% no-repeat;
       background-size: cover; }
@@ -396,10 +397,10 @@ body.home .hero {
   body.home .hero ul {
     list-style-type: none;
     padding: 0;
-    margin: 0 0 30px 10px;
+    margin: 0 0 30px 34px;
     display: inline-block; }
     body.home .hero ul li {
-      font-size: 20px;
+      font-size: 22px;
       text-align: left;
       margin-bottom: 15px;
       color: #212121;
