@@ -36,7 +36,7 @@ Template Name: Home Page
 			<div class="item dreamforce">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Transportation management for DreamForce - That was us.
+						Transportation management for DreamForce? That was us.
 					</div>
 				</div>
 				<div class="container">
@@ -60,7 +60,7 @@ Template Name: Home Page
 			<div class="item oracle">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						Oracle Racing at America's Cup regatta - 2014.
+						Transportation logistics for America's Cup?  Yup, us.
 					</div>
 				</div>
 				<div class="container">
@@ -84,7 +84,7 @@ Template Name: Home Page
 			<div class="item levis">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption">
-						49ers vs. Patriots - Fall 2014
+						Thousands of fans ride with us to 49ers games.
 					</div>
 				</div>
 				<div class="container">
