@@ -6,7 +6,7 @@ Template Name: Home Page
 
 <?php get_header(); ?>	
 <section class="hero light" id="hero">
-	<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+	<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
 			<div class="item active stadium">
@@ -369,7 +369,7 @@ Template Name: Home Page
 <script>
 	jQuery(document).ready(function($){
 
-		$('.carousel').carousel('pause');
+		$('.carousel').carousel();
 
 		// Tooltips
 		$(function () {
