@@ -369,7 +369,7 @@ Template Name: Home Page
 <script>
 	jQuery(document).ready(function($){
 
-		$('.carousel').carousel();
+		$('.carousel').carousel('pause');
 
 		// Tooltips
 		$(function () {
