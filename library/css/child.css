@@ -355,6 +355,7 @@ body.home .hero {
     bottom: 0;
     padding: 20px 0;
     text-align: center;
+    font-weight: 600;
     background: rgba(0, 0, 0, 0.6); }
   body.home .hero .carousel-fade .carousel-control.left {
     display: none; }
