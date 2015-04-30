@@ -876,6 +876,16 @@ section {
 .contact address.details span {
   margin-bottom: 10px; }
 
+.video-thumbnail {
+  float: left;
+  width: 20%;
+  margin: 0 2.5% 30px 0; }
+  .video-thumbnail img {
+    width: 100%;
+    height: auto; }
+  .video-thumbnail h2 {
+    font-size: 14px; }
+
 .footer {
   padding: 3em 0 2em;
   margin-top: 0;
