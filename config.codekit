@@ -3033,6 +3033,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/get-a-quote.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/get-a-quote.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -4180,6 +4189,50 @@
 		"initialSize": 3014,
 		"inputAbbreviatedPath": "\/library\/images\/vehicle-icon.png",
 		"outputAbbreviatedPath": "\/library\/images\/vehicle-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/36-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11945,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/36-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/36-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/37-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10005,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/37-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/37-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/56-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13368,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/56-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12370,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
