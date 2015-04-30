@@ -66,10 +66,10 @@
 								<nav class="telephone">
 									<ul class="nav navbar-nav">
 										<li class="hidden-xs">
-											Call for a free quote: <em>1-800-943-3824</em>
+											Call for a free quote: <em>1-877-943-3824</em>
 										</li>
 										<li class="visible-xs">
-											Call for a free quote: <em><a href="tel:1-800-546-6688">1-800-943-3824</a></em>
+											Call for a free quote: <em><a href="tel:1-877-943-3824">1-877-943-3824</a></em>
 										</li>
 									</ul>
 								</nav>

@@ -344,10 +344,11 @@ body.home section {
 body.home .hero {
   position: relative;
   padding: 0;
-  background: #f9f9f9;
+  background: #383838;
   background-size: cover;
   height: auto; }
   body.home .hero .carousel-fade .caption {
+    visibility: hidden;
     display: block;
     position: absolute;
     left: 0;
@@ -361,32 +362,32 @@ body.home .hero {
   body.home .hero .carousel-fade .carousel-control.left {
     display: none; }
   body.home .hero .carousel-fade .carousel-inner {
-    background: #f9f9f9; }
+    background: #383838; }
   body.home .hero .carousel-fade .item {
     padding: 2em 0; }
     body.home .hero .carousel-fade .item.stadium {
-      background: url("../images/hero-split-lightgrey.jpg") 50% 100% no-repeat;
+      background: url("../images/stadium-hero-dark.jpg") 50% 100% no-repeat;
       background-size: cover; }
       body.home .hero .carousel-fade .item.stadium .caption {
         background: rgba(0, 0, 0, 0.5); }
     body.home .hero .carousel-fade .item.levis {
-      background: url("../images/levis-stadium-split.jpg") 50% 100% no-repeat;
+      background: url("../images/levis-stadium-hero-dark.jpg") 50% 100% no-repeat;
       background-size: cover; }
     body.home .hero .carousel-fade .item.oracle {
-      background: url("../images/oracle-racing.jpg") 50% 100% no-repeat;
+      background: url("../images/oracle-racing-hero-dark.jpg") 50% 100% no-repeat;
       background-size: cover; }
     body.home .hero .carousel-fade .item.dreamforce {
-      background: url("../images/dreamforce-split-2.jpg") 50% 100% no-repeat;
+      background: url("../images/dreamforce-hero-dark.jpg") 50% 100% no-repeat;
       background-size: cover; }
     body.home .hero .carousel-fade .item.marathon {
-      background: url("../images/marathon-split.jpg") 50% 100% no-repeat;
+      background: url("../images/marathon-hero-dark.jpg") 50% 100% no-repeat;
       background-size: cover; }
   body.home .hero h1 {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
     margin: 20px 0 30px;
-    color: #212121;
+    color: white;
     text-shadow: none; }
   body.home .hero p {
     text-align: center;
@@ -403,7 +404,7 @@ body.home .hero {
       font-size: 22px;
       text-align: left;
       margin-bottom: 15px;
-      color: #212121;
+      color: white;
       text-shadow: none; }
       body.home .hero ul li i {
         font-size: 0.75em;
