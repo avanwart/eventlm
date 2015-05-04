@@ -27,15 +27,26 @@ body.single-post
 		background: white
 		padding: 10px
 		margin-top: 10px
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			left: 0
+			right: 0
+			border-top: 3px solid $red
+			top: 0
+			display: block
 		legend
 			border: none
 			text-align: center
-			letter-spacing: 1px
 			margin: 10px 0 20px
-			font-size: 18px
+			font-size: 24px
+			font-weight: bold
 			small
 				font-size: 13px
+				font-weight: normal
 				display: block
+				letter-spacing: 0px
 		.form-group
 			margin-bottom: 10px
 		.form-control

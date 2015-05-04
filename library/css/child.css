@@ -602,16 +602,27 @@ body.single-post .widget.about {
     border: 1px solid #eaeaea;
     background: white;
     padding: 10px;
-    margin-top: 10px; }
+    margin-top: 10px;
+    position: relative; }
+    .widget.quick-quote:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      border-top: 3px solid #eb1f28;
+      top: 0;
+      display: block; }
     .widget.quick-quote legend {
       border: none;
       text-align: center;
-      letter-spacing: 1px;
       margin: 10px 0 20px;
-      font-size: 18px; }
+      font-size: 24px;
+      font-weight: bold; }
       .widget.quick-quote legend small {
         font-size: 13px;
-        display: block; }
+        font-weight: normal;
+        display: block;
+        letter-spacing: 0px; }
     .widget.quick-quote .form-group {
       margin-bottom: 10px; }
     .widget.quick-quote .form-control {
