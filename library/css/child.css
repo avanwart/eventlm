@@ -1281,6 +1281,8 @@ section {
 
   .quote form .control-label {
     margin-bottom: 5px; }
+  .quote form .form-control {
+    -webkit-appearance: none; }
   .quote form .form-group {
     margin-bottom: 5px; }
   .quote form .btn-primary {
