@@ -1282,6 +1282,8 @@ section {
     margin-bottom: 5px; }
   .quote form .form-group {
     margin-bottom: 5px; }
+  .quote form .btn-primary {
+    margin-top: 10px; }
 
   .breadcrumb {
     display: none; }
