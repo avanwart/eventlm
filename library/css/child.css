@@ -105,7 +105,8 @@ form .form-control {
   color: #212121;
   padding: 6px 8px;
   font-weight: normal;
-  height: 36px; }
+  height: 36px;
+  transition: width 1s ease-in-out; }
   form .form-control.error {
     border-color: #00a7ec; }
 form .placeholder {
@@ -1036,8 +1037,6 @@ section {
 @media screen and (max-width: 767px) {
   body {
     padding: 0; }
-    body p, body ul li {
-      font-size: 14px; }
     body .btn-primary {
       font-size: 15px;
       padding: 14px 20px;
@@ -1278,6 +1277,11 @@ section {
     .quick-quote.active {
       opacity: 1;
       display: block; }
+
+  .quote form .control-label {
+    margin-bottom: 5px; }
+  .quote form .form-group {
+    margin-bottom: 5px; }
 
   .breadcrumb {
     display: none; }

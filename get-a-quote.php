@@ -117,7 +117,7 @@ Template Name: Get a Quote
 						</div>
 					</div>
 					<div class="form-group">
-						<label for="" class="col-sm-3">&nbsp;</label>
+						<label for="" class="col-sm-3 hidden-xs">&nbsp;</label>
 						<div class="col-sm-7">
 							<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Submit my RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
 						</div>
