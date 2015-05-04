@@ -4215,6 +4215,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/video_thumbnails\/45-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12111,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/45-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/45-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/video_thumbnails\/56-1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4233,6 +4244,94 @@
 		"initialSize": 12370,
 		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-2.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/56-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/double-decker-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11614,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/double-decker-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/double-decker-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/excursion-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12669,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/excursion-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/excursion-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/gl-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16012,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/gl-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/gl-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/highlander-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15105,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/highlander-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/highlander-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/hybrid-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12186,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/hybrid-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/hybrid-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/r-class-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10059,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/r-class-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/r-class-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/sprinter-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9780,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/sprinter-1.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/sprinter-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/video_thumbnails\/sprinter-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11310,
+		"inputAbbreviatedPath": "\/library\/images\/video_thumbnails\/sprinter-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/video_thumbnails\/sprinter-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

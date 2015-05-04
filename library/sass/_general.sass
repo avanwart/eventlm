@@ -120,23 +120,31 @@ form
 	.form-control
 		border-radius: 0
 		background: white
-		border-color: 1px solid #dadada
+		border-color: #ccc
 		box-shadow: none
 		color: $black
 		padding: 6px 8px
 		font-weight: normal
+		height: 36px
+		&.error
+			border-color: $blue
 	.placeholder
 		color: #aaaaaa
 	label.error
-		font-size: 14px
+		font-size: 13px
 		font-weight: normal
+		background: $blue
+		color: white
+		padding: 5px 10px
+		display: block
+		border-radius: 0 0 4px 4px
+		margin-top: -1px
 	input[type="tel"]
 		-webkit-user-select: none
 	select.form-control
 		-webkit-appearance: none
-		background: white url('../images/dd-arrow.jpg') 97% 13px no-repeat
+		background: white url('../images/dd-arrow.jpg') 97% 12px no-repeat
 		background-size: 8px 12px
-		border: 1px solid #dadada
 		border-radius: 0
 		color: #999
 		font-weight: normal

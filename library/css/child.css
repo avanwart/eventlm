@@ -100,23 +100,31 @@ form .control-label {
 form .form-control {
   border-radius: 0;
   background: white;
-  border-color: 1px solid #dadada;
+  border-color: #ccc;
   box-shadow: none;
   color: #212121;
   padding: 6px 8px;
-  font-weight: normal; }
+  font-weight: normal;
+  height: 36px; }
+  form .form-control.error {
+    border-color: #00a7ec; }
 form .placeholder {
   color: #aaaaaa; }
 form label.error {
-  font-size: 14px;
-  font-weight: normal; }
+  font-size: 13px;
+  font-weight: normal;
+  background: #00a7ec;
+  color: white;
+  padding: 5px 10px;
+  display: block;
+  border-radius: 0 0 4px 4px;
+  margin-top: -1px; }
 form input[type="tel"] {
   -webkit-user-select: none; }
 form select.form-control {
   -webkit-appearance: none;
-  background: white url("../images/dd-arrow.jpg") 97% 13px no-repeat;
+  background: white url("../images/dd-arrow.jpg") 97% 12px no-repeat;
   background-size: 8px 12px;
-  border: 1px solid #dadada;
   border-radius: 0;
   color: #999;
   font-weight: normal; }
@@ -778,6 +786,9 @@ section {
     color: #212121;
     font-weight: 600; }
 
+.quote {
+  padding-bottom: 5em; }
+
 .awards article {
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -878,13 +889,20 @@ section {
 
 .video-thumbnail {
   float: left;
-  width: 20%;
-  margin: 0 2.5% 30px 0; }
+  width: 22.5%;
+  margin: 0 2.5% 30px 0;
+  text-align: center; }
   .video-thumbnail img {
     width: 100%;
-    height: auto; }
+    height: auto;
+    border: 4px solid #efefef;
+    margin-bottom: 10px; }
   .video-thumbnail h2 {
-    font-size: 14px; }
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center; }
+  .video-thumbnail:hover img {
+    border-color: #dadada; }
 
 .footer {
   padding: 3em 0 2em;

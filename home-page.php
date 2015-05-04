@@ -4,7 +4,7 @@ Template Name: Home Page
 */
 ?>
 
-<?php get_header(); ?>	
+<?php get_header(); ?>
 <section class="hero light" id="hero">
 	<div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
 		<!-- Wrapper for slides -->

@@ -226,6 +226,10 @@ section
 			color: $black
 			font-weight: 600
 
+// Get a quote
+.quote
+	padding-bottom: 5em
+
 // News
 .awards
 	article
@@ -336,11 +340,19 @@ section
 // Video Gallery
 .video-thumbnail
 	float: left
-	width: 20%
+	width: 22.5%
 	margin: 0 2.5% 30px 0
+	text-align: center
 	img
 		width: 100%
 		height: auto
+		border: 4px solid #efefef
+		margin-bottom: 10px
 	h2
 		font-size: 14px
+		font-weight: normal
+		text-align: center
+	&:hover
+		img
+			border-color: #dadada
 
