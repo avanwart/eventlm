@@ -22,13 +22,13 @@ Template Name: Contact
 							<div class="col-sm-6">
 								<div class="well">
 									<address class="address">
-										<span>Bauer's Intelligent Transportation</span>
+										<span>Event Logistics Management</span>
 										<span>50 Pier</span>
 										<span>San Francisco, CA 94158</span>
 									</address>
 									<hr>
 									<address class="details">
-										<span><strong>Phone: </strong>1-800-546-6688</span>
+										<span><strong>Phone: </strong>1-877-943-3824</span>
 										<span><strong>Fax: </strong>415-522-1600</span>
 									</address>
 								</div>
