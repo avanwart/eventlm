@@ -736,6 +736,9 @@ section {
     padding: 6px 10px;
     font-size: 14px; }
 
+.thank-you {
+  padding: 4em 0; }
+
 .gallery.gallery-size-thumbnail .gallery-item {
   float: left;
   border: 1px solid #f1f1f1;
