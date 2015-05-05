@@ -29,9 +29,9 @@ Template Name: Services
 						<div class="row">
 							<div class="col-sm-12">
 								<article>
-									<!-- <header>
+									<header>
 										<h1 class="page-title"><?php the_title(); ?></h1>
-									</header> -->
+									</header>
 									<?php the_content(); ?>
 								</article> <!-- end article -->
 							</div>

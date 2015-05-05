@@ -5,26 +5,14 @@
 
 <?php else : ?>
 <div class="bar">
-	
-		<?php if ( is_page (array( 225, 181, 287, 250, 228 )) ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_1(); ?>
-			</div>
-		<?php } elseif ( $post->post_parent == 225 || $post->post_parent == 181 || $post->post_parent == 228 || $post->post_parent == 250 || $post->post_parent == 287 ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_1(); ?>
-			</div>
-		<?php } elseif ( is_page( 27 ) || is_page( 90 ) || is_page( 512 ) ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_2(); ?>
-			</div>
-		<?php } elseif ( $post->post_parent == 27 || $post->post_parent == 90 ) { ?>
-			<div class="widget about">
-				<?php footer_bucket_2(); ?>
-			</div>
-		<?php } else {
-			//get_sidebar();
+	<div class="bucket">
+		<?php if ( $post->post_parent == '4' ) { ?>
+  		<h3 class="bucket-title">Our Services</h3>
+  		<?php services_bucket();
+		} else {
+			
 		}?>
+	</div>
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form" id="rfp">
