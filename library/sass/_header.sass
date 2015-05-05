@@ -15,20 +15,28 @@
 			background: url('../images/eventlm-logo-new-2x.jpg') center 18px no-repeat
 			background-size: 160px auto
 	.navbar-collapse
-		margin: 26px 0
+		margin: 0
 		.navbar-nav
 			li
 				a
 					color: $midGrey
 					font-size: 16px
-					padding: 15px 20px
-					border-radius: 40px
+					padding: 0 20px
+					line-height: $navbarHeight
 					font-weight: normal
-					&:hover
+					background: transparent!important
+					&:hover, &:active, &:focus
 						color: $blue
-				&.active
+						background: transparent
+				&.active, &:active
 					a
 						background: transparent
+				.dropdown-menu
+					border-top: none
+					li
+						a
+							line-height: 1
+							padding: 10px 15px
 	.telephone
 		float: right
 		margin: 6px 0 0 20px

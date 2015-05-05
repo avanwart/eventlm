@@ -17,6 +17,38 @@ body.single-post
 		&.about
 			display: none
 
+.card
+	border: 1px solid #efefef
+	background: white
+	padding: 290px 30px 30px
+	position: relative
+	&.flush
+		padding-top: 30px
+	header
+		background-size: cover
+		background-position: 50% 50%
+		height: 260px
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		text-align: center
+		z-index: 1
+		.overlay
+			height: 260px
+			position: absolute
+			top: 0
+			left: 0
+			right: 0
+			text-align: center
+			background: rgba(0, 0, 0, .5)
+			z-index: 2
+			h1
+				color: white
+				line-height: 260px
+				border: none
+				text-shadow: 0 1px 0 rgba(0, 0, 0, .3)
+
 // Sidebar area
 .bar
 	.bucket
@@ -45,7 +77,7 @@ body.single-post
 		border: 1px solid #eaeaea
 		background: white
 		padding: 10px
-		margin-top: 10px
+		margin-top: 0px
 		position: relative
 		&:after
 			content: ''
@@ -320,6 +352,7 @@ section
 			background: $orange
 	.well
 		margin-bottom: 10px
+		background: transparent
 		hr
 			margin: 10px 0
 	address

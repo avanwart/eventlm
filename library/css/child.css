@@ -74,16 +74,22 @@ body {
 
 .alignleft {
   float: left;
-  border: 8px solid white;
+  padding: 6px;
+  border: 1px solid #efefef;
+  background: #f9f9f9;
   margin: 0 20px 10px 0; }
 
 .alignright {
   float: right;
-  border: 8px solid white;
+  padding: 6px;
+  border: 1px solid #efefef;
+  background: #f9f9f9;
   margin: 0 0 10px 20px; }
 
 .size-full, .size-large {
-  border: 8px solid white;
+  padding: 6px;
+  border: 1px solid #efefef;
+  background: #f9f9f9;
   margin: 0 0 20px;
   max-width: 100%;
   height: auto; }
@@ -290,17 +296,24 @@ a.carousel-control.right {
     background: url("../images/eventlm-logo-new-2x.jpg") center 18px no-repeat;
     background-size: 160px auto; }
   .navbar-default .navbar-collapse {
-    margin: 26px 0; }
+    margin: 0; }
     .navbar-default .navbar-collapse .navbar-nav li a {
       color: #444444;
       font-size: 16px;
-      padding: 15px 20px;
-      border-radius: 40px;
-      font-weight: normal; }
-      .navbar-default .navbar-collapse .navbar-nav li a:hover {
-        color: #00a7ec; }
-    .navbar-default .navbar-collapse .navbar-nav li.active a {
+      padding: 0 20px;
+      line-height: 80px;
+      font-weight: normal;
+      background: transparent !important; }
+      .navbar-default .navbar-collapse .navbar-nav li a:hover, .navbar-default .navbar-collapse .navbar-nav li a:active, .navbar-default .navbar-collapse .navbar-nav li a:focus {
+        color: #00a7ec;
+        background: transparent; }
+    .navbar-default .navbar-collapse .navbar-nav li.active a, .navbar-default .navbar-collapse .navbar-nav li:active a {
       background: transparent; }
+    .navbar-default .navbar-collapse .navbar-nav li .dropdown-menu {
+      border-top: none; }
+      .navbar-default .navbar-collapse .navbar-nav li .dropdown-menu li a {
+        line-height: 1;
+        padding: 10px 15px; }
   .navbar-default .telephone {
     float: right;
     margin: 6px 0 0 20px; }
@@ -594,6 +607,38 @@ body.home .testimonials {
 body.single-post .widget.about {
   display: none; }
 
+.card {
+  border: 1px solid #efefef;
+  background: white;
+  padding: 290px 30px 30px;
+  position: relative; }
+  .card.flush {
+    padding-top: 30px; }
+  .card header {
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 260px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 1; }
+    .card header .overlay {
+      height: 260px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 2; }
+      .card header .overlay h1 {
+        color: white;
+        line-height: 260px;
+        border: none;
+        text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
+
 .bar .bucket {
   margin: 15px 0 0; }
   .bar .bucket .bucket-title {
@@ -618,7 +663,7 @@ body.single-post .widget.about {
     border: 1px solid #eaeaea;
     background: white;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
     position: relative; }
     .widget.quick-quote:after {
       content: "";
@@ -873,7 +918,8 @@ section {
   width: 100%;
   background: #ff7b00; }
 .contact .well {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  background: transparent; }
   .contact .well hr {
     margin: 10px 0; }
 .contact address span {

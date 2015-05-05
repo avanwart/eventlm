@@ -1,18 +1,13 @@
-
-<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-
-	<?php dynamic_sidebar( 'sidebar1' ); ?>
-
-<?php else : ?>
 <div class="bar">
-	<div class="bucket">
-		<?php if ( $post->post_parent == '4' ) { ?>
+	
+		<?php if ( $post->post_parent == '4' || is_page(4) ) { ?>
+			<div class="bucket">
   		<h3 class="bucket-title">Our Services</h3>
-  		<?php services_bucket();
+  		<?php services_bucket(); ?>
+  		</div> <?php
 		} else {
 			
 		}?>
-	</div>
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form" id="rfp">
@@ -86,44 +81,37 @@
 		</form>
 	</div>
 </div>
-<?php endif; ?>
 
 <script>
 	jQuery(document).ready(function($){
 		
-		$('#service').bind('change', function(){
-	    if( $(this).val() !== "" ){
-	      $(this).addClass('valid').removeClass('hot');
-	    } else {
-	      $(this).removeClass('valid');
-	    }
-		});
-
-		// Quick Quote Form Functionality
-		$('#service').change(function(){
-			if ( $(this).val() == "charter" ){
-				// $('#first_name').focus();
-			} else if ( $(this).val() == "commuter" ){
-				$('.supplementary').fadeOut();
-				// $('#first_name').focus();
-			} else if ( $(this).val() == "events" ){
-				$('.supplementary').hide();
-				$('#name_of_event').fadeIn();
-			}
-		});
-
-		// Input mask - Restrict count, formatting, numbers only
+		// Input mask formatting
 		$.extend($.inputmask.defaults, {
 			'placeholder': " "
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
 
+		// Adding a method for US phone numbers
+		jQuery.validator.addMethod("phoneUS", function(value, element) {
+			return this.optional( element ) || /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/.test( value );
+		}, 'Enter a valid phone number.');
+
 		// Form Validation
-		$('#intake_form').validate({
+		$('#rfp').validate({
 			submitHandler: function() { 
-				$('.intake-form button').prop('disabled', true);
+				$('#rfp button').prop('disabled', true);
 				window.location = "?p=462"
 			}
 		});
+
+		// Valid class for select dropdown
+		$('select').change(function(){
+			if( $(this).val() == "" ){
+				$(this).removeClass('valid');
+			} else {
+				$(this).addClass('valid');
+			}
+		});
+
 	});
 </script>

@@ -16,14 +16,20 @@ Template Name: About
 							get_sidebar();
 						?>
 					</div>
-					<div class="col-sm-8 col-md-9 col-lg-8">
+					<div class="col-sm-8 col-md-9 col-lg-8 card">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<?php
+							$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
+							$url = $thumb['0'];
+						?>
+						<header style="background-image: url(<?=$url?>);">
+							<div class="overlay">
+								<h1 class="page-title"><?php the_title(); ?></h1>
+							</div>
+						</header>
 						<div class="row">
 							<div class="col-sm-12">
 								<article>
-									<header>
-										<h1 class="page-title"><?php the_title(); ?></h1>
-									</header>
 									<?php the_content(); ?>
 								</article> <!-- end article -->
 							</div>
