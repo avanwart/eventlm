@@ -612,6 +612,9 @@ body.single-post .widget.about {
   background: white;
   padding: 290px 30px 30px;
   position: relative; }
+  .card img {
+    max-width: 100%;
+    height: auto; }
   .card.flush {
     padding-top: 30px; }
   .card header {
@@ -634,6 +637,7 @@ body.single-post .widget.about {
       background: rgba(0, 0, 0, 0.5);
       z-index: 2; }
       .card header .overlay h1 {
+        font-size: 44px;
         color: white;
         line-height: 260px;
         border: none;
@@ -952,6 +956,13 @@ section {
   color: #f1f1f1; }
   .footer .footer-links {
     margin-bottom: 20px; }
+  .footer h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #888;
+    font-size: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #333; }
   .footer .footer-bucket {
     padding: 0; }
     .footer .footer-bucket li {

@@ -5,18 +5,18 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-12 col-md-10-offset-1 col-lg-8 col-lg-offset-2">
+					<div class="col-sm-4 col-md-3">
+						<?php
+							get_sidebar();
+						?>
+					</div>
+					<div class="col-sm-8 col-md-9 col-lg-8 card flush">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+						<h1 class="page-title"><?php the_title(); ?></h1>
 						<div class="row">
 							<div class="col-sm-12">
 								<article>
-									<header>
-										<h1 class="page-title"><?php the_title(); ?></h1>
-									</header>
 									<?php the_content(); ?>
-									<p class="text-center">
-										<a href="?page_id=515" class="btn btn-lg btn-primary">Request a Free Quote <i class="glyphicon glyphicon-chevron-right"></i></a>
-									</p>
 								</article> <!-- end article -->
 							</div>
 						</div>

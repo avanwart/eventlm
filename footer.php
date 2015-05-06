@@ -5,16 +5,33 @@
 				<div id="inner-footer" class="footer-links clearfix">
 
 					<div class="row">
-						<div class="col-lg-9 col-lg-offset-2">
+						<div class="col-sm-12 col-lg-11 col-lg-offset-1">
 							<div class="row">
-								<div class="col-sm-4 bucket">
-									<?php footer_bucket_1(); ?>
+								<div class="col-sm-6 col-lg-5">
+									<div class="row">
+										<div class="col-sm-12">
+											<h3>Our Services</h3>
+										</div>
+										<div class="col-sm-6 bucket">
+											<?php footer_bucket_1(); ?>
+										</div>
+										<div class="col-sm-6 bucket">
+											<?php footer_bucket_2(); ?>
+										</div>
+									</div>
 								</div>
-								<div class="col-sm-4 bucket">
-									<?php footer_bucket_2(); ?>
-								</div>
-								<div class="col-sm-4 bucket">
-									<?php footer_bucket_3(); ?>
+								<div class="col-sm-6 col-lg-5 col-lg-offset-1">
+									<div class="row">
+										<div class="col-sm-12">
+											<h3>Company</h3>
+										</div>
+										<div class="col-sm-6 bucket">
+											<?php footer_bucket_3(); ?>
+										</div>
+										<div class="col-sm-6 bucket">
+											<?php footer_bucket_4(); ?>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
