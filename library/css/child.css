@@ -85,6 +85,10 @@ body {
   border: 1px solid #efefef;
   background: #f9f9f9;
   margin: 0 0 10px 20px; }
+  .alignright.open {
+    border: none;
+    background: transparent;
+    padding: 0; }
 
 .size-full, .size-large {
   padding: 6px;
@@ -486,6 +490,8 @@ body.home .services .tab-pane {
   border: 1px solid #ddd;
   border-top: none;
   padding: 2em 0; }
+  body.home .services .tab-pane#fans img {
+    margin: 0; }
   body.home .services .tab-pane h2 {
     margin-top: 20px;
     font-size: 36px;
@@ -650,13 +656,13 @@ body.single-post .widget.about {
     color: #212121;
     font-weight: 100;
     margin-bottom: 10px; }
-  .bar .bucket .services-bucket {
+  .bar .bucket .services-bucket, .bar .bucket .company-bucket {
     margin-left: 0; }
-    .bar .bucket .services-bucket li {
+    .bar .bucket .services-bucket li, .bar .bucket .company-bucket li {
       margin-bottom: 10px; }
-      .bar .bucket .services-bucket li a {
+      .bar .bucket .services-bucket li a, .bar .bucket .company-bucket li a {
         font-size: 15px; }
-      .bar .bucket .services-bucket li.current-menu-item a {
+      .bar .bucket .services-bucket li.current-menu-item a, .bar .bucket .company-bucket li.current-menu-item a {
         color: #212121; }
 
 .widget {
@@ -728,6 +734,9 @@ section {
     section ul li {
       margin-bottom: 1em;
       line-height: 1.7; }
+  section li ul {
+    list-style-type: circle;
+    margin-bottom: 0; }
   section article h3 {
     font-weight: 600;
     margin-bottom: 10px;
@@ -951,7 +960,7 @@ section {
 .footer {
   padding: 3em 0 2em;
   margin-top: 0;
-  background: #212121;
+  background: #333;
   border: none;
   color: #f1f1f1; }
   .footer .footer-links {
@@ -962,7 +971,8 @@ section {
     color: #888;
     font-size: 20px;
     padding-bottom: 5px;
-    border-bottom: 1px solid #333; }
+    border-bottom: 1px solid #212121;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1); }
   .footer .footer-bucket {
     padding: 0; }
     .footer .footer-bucket li {
@@ -970,7 +980,7 @@ section {
       margin-bottom: 15px; }
       .footer .footer-bucket li a {
         color: #f1f1f1;
-        font-size: 14px; }
+        font-size: 13px; }
     .footer .footer-bucket .sub-menu {
       display: none;
       margin-top: 8px;
@@ -1145,8 +1155,25 @@ section {
           display: block;
           width: 50%;
           text-align: center; }
+          header .navbar-default .navbar-collapse .navbar-nav li.open {
+            float: none;
+            width: 100%; }
+          header .navbar-default .navbar-collapse .navbar-nav li .dropdown-menu {
+            float: none;
+            width: 100%;
+            border-bottom: 1px solid #dadada; }
+            header .navbar-default .navbar-collapse .navbar-nav li .dropdown-menu li {
+              float: none;
+              display: block;
+              width: 100%; }
+              header .navbar-default .navbar-collapse .navbar-nav li .dropdown-menu li a {
+                color: #212121;
+                font-size: 15px; }
           header .navbar-default .navbar-collapse .navbar-nav li a {
-            padding: 10px 15px; }
+            padding: 10px 15px;
+            line-height: 1; }
+            header .navbar-default .navbar-collapse .navbar-nav li a:focus, header .navbar-default .navbar-collapse .navbar-nav li a:active, header .navbar-default .navbar-collapse .navbar-nav li a:hover {
+              color: #212121; }
           header .navbar-default .navbar-collapse .navbar-nav li.contact {
             clear: both;
             float: none;
@@ -1173,34 +1200,48 @@ section {
     body.home section h1 {
       font-size: 24px;
       margin-bottom: 1em; }
-  body.home .hero {
-    background-image: url("../images/blue-bridge-mobile.jpg"); }
-    body.home .hero h1 {
-      margin-top: 0;
-      font-size: 20px; }
-    body.home .hero ul {
-      margin: 0 0 0 20px;
-      padding: 0; }
-      body.home .hero ul li {
-        font-size: 18px; }
-    body.home .hero .quick-quote {
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-      display: none; }
-      body.home .hero .quick-quote.active {
-        opacity: 1;
-        display: block; }
-    body.home .hero .card {
-      margin: 0;
-      padding: 10px; }
-      body.home .hero .card form.intake-form .form-group {
-        margin-bottom: 8px; }
-        body.home .hero .card form.intake-form .form-group.row {
-          margin: 0; }
-        body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right {
-          padding: 0; }
-          body.home .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.home .hero .card form.intake-form .form-group .col-sm-6.right .form-control {
-            margin-bottom: 8px; }
+    body.home section img {
+      max-width: 100% !important;
+      height: auto; }
+    body.home section .btn-primary {
+      width: 100%; }
+  body.home .hero .carousel-fade .item {
+    padding: 2em 0; }
+    body.home .hero .carousel-fade .item.stadium {
+      background: url("../images/mobile-hero-bg.jpg") 50% 100% no-repeat;
+      background-size: cover; }
+      body.home .hero .carousel-fade .item.stadium .caption {
+        background: rgba(0, 0, 0, 0.5); }
+  body.home .hero h1 {
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold; }
+  body.home .hero ul {
+    margin: 0 0 20px;
+    padding: 0; }
+    body.home .hero ul li {
+      font-size: 17px; }
+      body.home .hero ul li i {
+        font-size: 0.65em;
+        top: 0; }
+  body.home .hero .quick-quote {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none; }
+    body.home .hero .quick-quote.active {
+      opacity: 1;
+      display: block; }
+  body.home .hero .card {
+    margin: 0;
+    padding: 10px; }
+    body.home .hero .card form.intake-form .form-group {
+      margin-bottom: 8px; }
+      body.home .hero .card form.intake-form .form-group.row {
+        margin: 0; }
+      body.home .hero .card form.intake-form .form-group .col-sm-6.left, body.home .hero .card form.intake-form .form-group .col-sm-6.right {
+        padding: 0; }
+        body.home .hero .card form.intake-form .form-group .col-sm-6.left .form-control, body.home .hero .card form.intake-form .form-group .col-sm-6.right .form-control {
+          margin-bottom: 8px; }
   body.home .logos .col-sm-2 {
     width: 49%; }
     body.home .logos .col-sm-2 img {
@@ -1230,6 +1271,17 @@ section {
     padding: 0 0 15px; }
     body.home .testimonials blockquote small {
       white-space: normal; }
+  body.home .events h3 {
+    font-size: 16px;
+    font-weight: bold; }
+  body.home .events ul {
+    margin: 0 0 0 20px; }
+    body.home .events ul li {
+      float: none;
+      width: 100%;
+      font-size: 16px; }
+  body.home .events .btn-primary {
+    margin-bottom: 40px; }
   body.home .benefits h2 {
     font-size: 17px; }
   body.home .benefits p {
@@ -1255,19 +1307,22 @@ section {
     font-size: 14px;
     width: 100%; }
 
-  .footer .bucket .bucket-title {
-    text-align: center;
-    font-size: 19px; }
-  .footer .bucket .footer-bucket {
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.08);
-    margin-bottom: 20px; }
-    .footer .bucket .footer-bucket li {
+  .footer {
+    padding-top: 0; }
+    .footer h3 {
+      margin-top: 50px;
       text-align: center;
+      border: none;
+      box-shadow: none;
       margin-bottom: 10px; }
-      .footer .bucket .footer-bucket li a {
-        font-size: 16px; }
+    .footer .bucket .footer-bucket {
+      padding-bottom: 0;
+      margin-bottom: 0; }
+      .footer .bucket .footer-bucket li {
+        text-align: center;
+        margin-bottom: 10px; }
+        .footer .bucket .footer-bucket li a {
+          font-size: 16px; }
 
   .standard {
     padding-top: 1em; }

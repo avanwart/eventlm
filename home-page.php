@@ -11,7 +11,7 @@ Template Name: Home Page
 		<div class="carousel-inner" role="listbox">
 			<div class="item active stadium">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
+					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
 						Kentucky University football program relies on ELM.
 					</div>
 				</div>
@@ -35,7 +35,7 @@ Template Name: Home Page
 			</div>
 			<div class="item dreamforce">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
+					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
 						DreamForce relies on ELM.
 					</div>
 				</div>
@@ -59,7 +59,7 @@ Template Name: Home Page
 			</div>
 			<div class="item oracle">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
+					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
 						ELM provided budgeting, traffic management and <br>rides for Oracle Racing at the America's Cup.
 					</div>
 				</div>
@@ -83,7 +83,7 @@ Template Name: Home Page
 			</div>
 			<div class="item levis">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
+					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
 						ELM gets thousands of 49ers fans to the game on time.
 					</div>
 				</div>
@@ -107,7 +107,7 @@ Template Name: Home Page
 			</div>
 			<div class="item marathon">
 				<div class="row">
-					<div class="col-sm-6 col-sm-offset-6 caption">
+					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
 						ELM handles safety and logistics for Bay to Breakers.
 					</div>
 				</div>
@@ -136,7 +136,7 @@ Template Name: Home Page
 			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
 		</a>
-		<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
 			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
 		</a>
@@ -186,10 +186,10 @@ Template Name: Home Page
 		<div class="row">
 			<div class="col-sm-12">
 				<ul class="visible-xs">
-					<li><a href="#">Transportation Logistics Planning</a></li>
-					<li><a href="#">Traffic Operations Management</a></li>
-					<li><a href="#">Budget Reduction Services</a></li>
-					<li><a href="#">Parking Solutions</a></li>
+					<li><a href="?p=564">Transportation Logistics Planning</a></li>
+					<li><a href="?p=545">Traffic Operations Management</a></li>
+					<li><a href="?p=654">Fan Transportation</a></li>
+					<li><a href="?p=549">Parking Solutions</a></li>
 					<li><a href="#">Vehicle Procurement</a></li>
 				</ul>
 				<div role="tabpanel" class="hidden-xs">
@@ -197,7 +197,7 @@ Template Name: Home Page
 					<ul class="nav nav-tabs" role="tablist">
 						<li role="presentation" class="active"><a href="#planning" aria-controls="home" role="tab" data-toggle="tab">Transportation Logistics Planning</a></li>
 						<li role="presentation"><a href="#traffic" aria-controls="profile" role="tab" data-toggle="tab">Traffic Operations Management</a></li>
-						<li role="presentation"><a href="#budget" aria-controls="messages" role="tab" data-toggle="tab">Budget Reduction <br class="hidden-xs"/>Services</a></li>
+						<li role="presentation"><a href="#fans" aria-controls="messages" role="tab" data-toggle="tab">Fan <br class="hidden-xs"/>Transportation</a></li>
 						<li role="presentation"><a href="#parking" aria-controls="settings" role="tab" data-toggle="tab">Parking <br class="hidden-xs"/>Solutions</a></li>
 						<li role="presentation"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
 					</ul>
@@ -215,10 +215,10 @@ Template Name: Home Page
 												<li>City impact and Traffic management plan</li>
 												<li>Operational and Communication system</li>
 												<li>Customized routing design</li>
-												<li>Budget Forecasting</li>
+												<li><a href="?p=541">Budget Reduction Services</a></li>
 											</ul>
 											<p class="text-center">
-												<a href="#" class="btn btn-lg btn-default">Learn more </a>
+												<a href="?p=564" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
@@ -242,7 +242,7 @@ Template Name: Home Page
 												<li>Crowd and safety management</li>
 											</ul>
 											<p class="text-center">
-												<a href="#" class="btn btn-lg btn-default">Learn more </a>
+												<a href="?p=545" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
@@ -253,20 +253,31 @@ Template Name: Home Page
 								</div>
 							</div>
 						</div>
-						<div role="tabpanel" class="tab-pane budget" id="budget">
+						<div role="tabpanel" class="tab-pane budget" id="fans">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1">
 									<div class="row">
+										<div class="col-sm-12">
+											<h2>Fan Transportation with Get2theEvent</h2>
+											<p>Create the ultimate experience for your all-stars with Get2theEvent fan transportation.</p>
+										</div>
+									</div>
+									<div class="row">
 										<div class="col-sm-7">
-											<h2>Budget Reduction Services</h2>
-											<p>With a database of over 1200 vendors and partners, we can ensure that the right equipment and services are delivered to our client at the right price.  Through proven relationships and industry standing, Event Logistics Management has the ability to secure vehicles of all types at below market value.  These relationships significantly reduce operational costs for our clients and also for passengers.</p>
+											<ul>
+												<li>On-board Entertainment Systems &amp; WiFi</li>
+												<li>Pre-packaged Lunch Assortments</li>
+												<li>Sponsored on-site VIP events</li>
+												<li>Real Time GPS Management of Ridership</li>
+												<li>Traffic Demand Management</li>
+											</ul>
 											<p class="text-center">
-												<a href="#" class="btn btn-lg btn-default">Learn more </a>
+												<a href="?p=654" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/piggy-bank-calculator.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/get2theevent-logo-lg.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -280,7 +291,7 @@ Template Name: Home Page
 											<h2>Parking Solutions</h2>
 											<p>As part of the event experience, the Event Logistics Management team will become familiar and comfortable with the venue layout, parking facilities and shuttle drop and load zone opportunities.  We will work alongside city and local agencies to optimize ingress and egress for the event, and produce a solution which reduces the impact of the event to its guests and the local community.</p>
 											<p class="text-center">
-												<a href="#" class="btn btn-lg btn-default">Learn more </a>
+												<a href="?p=549" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
@@ -305,7 +316,7 @@ Template Name: Home Page
 												<li>Sedan, SUV, Limousines and Vans</li>
 											</ul>
 											<p class="text-center">
-												<a href="#" class="btn btn-lg btn-default">Learn more </a>
+												<a href="?p=552" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>

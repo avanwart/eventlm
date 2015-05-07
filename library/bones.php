@@ -220,6 +220,7 @@ function bones_theme_support() {
 			'footer-bucket-3' => __( 'Footer Bucket 3', 'bonestheme' ),
 			'footer-bucket-4' => __( 'Footer Bucket 4', 'bonestheme' ),
             'services-bucket' => __( 'Services Bucket', 'bonestheme' ),
+            'company-bucket' => __( 'Company Bucket', 'bonestheme' ),
 		)
 	);
 } /* end bones theme support */
@@ -324,6 +325,23 @@ function services_bucket() {
         'menu' => __( 'Services Bucket', 'bonestheme' ),   // nav name
         'menu_class' => 'services-bucket list-unstyled',          // adding custom nav class
         'theme_location' => 'services-bucket',             // where it's located in the theme
+        'before' => '',                                 // before the menu
+        'after' => '',                                  // after the menu
+        'link_before' => '',                            // before each link
+        'link_after' => '',                             // after each link
+        'depth' => 0,                                   // limit the depth of the nav
+        'fallback_cb' => 'bones_footer_links_fallback5'  // fallback function
+    ));
+} /* end bones footer link */
+
+function company_bucket() {
+    // display the wp3 menu if available
+    wp_nav_menu(array(
+        'container' => '',                              // remove nav container
+        'container_class' => 'services-links clearfix',   // class of container (should you choose to use it)
+        'menu' => __( 'Company Bucket', 'bonestheme' ),   // nav name
+        'menu_class' => 'company-bucket list-unstyled',          // adding custom nav class
+        'theme_location' => 'company-bucket',             // where it's located in the theme
         'before' => '',                                 // before the menu
         'after' => '',                                  // after the menu
         'link_before' => '',                            // before each link

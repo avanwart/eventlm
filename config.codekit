@@ -3621,6 +3621,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/get2theevent-logo-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29569,
+		"inputAbbreviatedPath": "\/library\/images\/get2theevent-logo-lg.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/get2theevent-logo-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/get2theevent-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34690,
+		"inputAbbreviatedPath": "\/library\/images\/get2theevent-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/get2theevent-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/group-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3896,6 +3918,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/mobile-hero-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66527,
+		"inputAbbreviatedPath": "\/library\/images\/mobile-hero-bg.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/mobile-hero-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/music-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3936,6 +3969,17 @@
 		"initialSize": 93992,
 		"inputAbbreviatedPath": "\/library\/images\/oracle-racing.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/oracle-racing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/our-services-featured-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82158,
+		"inputAbbreviatedPath": "\/library\/images\/our-services-featured-image.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/our-services-featured-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4171,6 +4215,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/staffing-featured-image-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62141,
+		"inputAbbreviatedPath": "\/library\/images\/staffing-featured-image-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/staffing-featured-image-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/staffing-featured-image-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74825,
+		"inputAbbreviatedPath": "\/library\/images\/staffing-featured-image-3.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/staffing-featured-image-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/staffing-featured-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52649,
+		"inputAbbreviatedPath": "\/library\/images\/staffing-featured-image.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/staffing-featured-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/staffing-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4189,6 +4266,39 @@
 		"initialSize": 4248,
 		"inputAbbreviatedPath": "\/library\/images\/staffing-icon2.png",
 		"outputAbbreviatedPath": "\/library\/images\/staffing-icon2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/testimonials-featured-image-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62457,
+		"inputAbbreviatedPath": "\/library\/images\/testimonials-featured-image-2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/testimonials-featured-image-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/testimonials-featured-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39323,
+		"inputAbbreviatedPath": "\/library\/images\/testimonials-featured-image.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/testimonials-featured-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/testimonials-featured-image2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 181780,
+		"inputAbbreviatedPath": "\/library\/images\/testimonials-featured-image2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/testimonials-featured-image2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

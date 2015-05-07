@@ -5,8 +5,13 @@
   		<h3 class="bucket-title">Our Services</h3>
   		<?php services_bucket(); ?>
   		</div> <?php
+		} elseif ( $post->post_parent == '631' || is_page(631) ) { ?>
+			<div class="bucket">
+  		<h3 class="bucket-title">Company</h3>
+  		<?php company_bucket(); ?>
+  		</div> <?php
 		} else {
-			
+
 		}?>
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
