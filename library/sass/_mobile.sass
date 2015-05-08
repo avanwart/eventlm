@@ -252,19 +252,32 @@
 
 	// Secondary Pages
 	.standard
-		padding-top: 0em
+		padding: 0em
+		blockquote
+			padding: 10px 0
+			font-size: 16px
+			&:before
+				left: 5px
+				font-size: 40px
 		.card
-			padding: 280px 15px 0
+			&.flush
+				padding-top: 30px
+			padding: 280px 15px 2em
 			border: none
 			header
 				.overlay
 					padding: 0 15px
+					background: rgba(0, 0, 0, .65)
+					display: table
+					width: 100%
 					h1
 						line-height: 1.3
 						margin-top: 65px
-						font-size: 36px
+						font-size: 38px
+						display: table-cell
+						vertical-align: middle
 	h1.page-title
-		font-size: 22px
+		font-size: 28px
 		margin-bottom: 20px
 		text-align: center
 	h1.entry-title

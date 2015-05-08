@@ -6,12 +6,12 @@ Template Name: Testimonials
 
 <?php get_header(); ?>	
 
-<section class="testimonial-quotes">
+<section class="testimonial-quotes standard">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-4 col-md-3">
+					<div class="col-sm-4 col-md-3 hidden-xs">
 						<?php get_sidebar(); ?>
 					</div>
 					<div class="col-sm-8 col-md-9 col-lg-8 card">
@@ -38,6 +38,7 @@ Template Name: Testimonials
 								</article> <!-- end article -->
 								<?php endwhile; endif; ?>
 								<?php wp_reset_postdata(); ?>
+								<a class="btn btn-lg btn-primary btn-block visible-xs" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 						<?php endwhile; endif; ?>

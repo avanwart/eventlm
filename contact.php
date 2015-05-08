@@ -6,7 +6,7 @@ Template Name: Contact
 
 <?php get_header(); ?>
 
-<section class="contact">
+<section class="contact standard">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">

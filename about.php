@@ -31,6 +31,7 @@ Template Name: About
 							<div class="col-sm-12">
 								<article>
 									<?php the_content(); ?>
+									<a class="btn btn-lg btn-primary btn-block visible-xs" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 								</article> <!-- end article -->
 							</div>
 						</div>
