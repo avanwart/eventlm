@@ -3797,6 +3797,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/imac-mockup2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36461,
+		"inputAbbreviatedPath": "\/library\/images\/imac-mockup2.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/imac-mockup2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/levis-stadium-hero-dark.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

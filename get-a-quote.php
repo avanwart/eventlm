@@ -9,13 +9,9 @@ Template Name: Get a Quote
 <section class="quote">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 				<h1 class="text-center">Get a Quote</h1>
 				<p class="text-center">Fill in your details below and we'll get back to you within one business day.</p>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 				<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form form-horizontal" id="rfp">
 					<input type=hidden name="oid" value="00DE0000000IvUX">
 					<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/thank-you">

@@ -27,7 +27,7 @@ Template Name: Home Page
 								</ul>
 							</div>
 							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+								<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -51,7 +51,7 @@ Template Name: Home Page
 								</ul>
 							</div>
 							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+								<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -75,7 +75,7 @@ Template Name: Home Page
 								</ul>
 							</div>
 							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+								<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -99,7 +99,7 @@ Template Name: Home Page
 								</ul>
 							</div>
 							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+								<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -123,7 +123,7 @@ Template Name: Home Page
 								</ul>
 							</div>
 							<div class="text-center">
-								<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+								<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 							</div>
 						</div>
 					</div>
@@ -153,7 +153,7 @@ Template Name: Home Page
 					</ul>
 				</div>
 				<div class="text-center">
-					<button class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+					<button class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 				</div>
 			</div>
 		</div>
@@ -192,6 +192,9 @@ Template Name: Home Page
 					<li><a href="?p=549">Parking Solutions</a></li>
 					<li><a href="#">Vehicle Procurement</a></li>
 				</ul>
+				<div class="text-center visible-xs">
+					<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+				</div>
 				<div role="tabpanel" class="hidden-xs">
 					<!-- Nav tabs -->
 					<ul class="nav nav-tabs" role="tablist">
@@ -219,11 +222,11 @@ Template Name: Home Page
 											</ul>
 											<p class="text-center">
 												<a href="?p=564" class="btn btn-lg btn-default">Learn more </a>
-												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/imac-mockup.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/map-routes.jpg" class="img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -243,11 +246,11 @@ Template Name: Home Page
 											</ul>
 											<p class="text-center">
 												<a href="?p=545" class="btn btn-lg btn-default">Learn more </a>
-												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/map-routes.jpg" class="img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/traffic-signal.jpg" class="signal img-responsive" alt="">
 										</div>
 									</div>
 								</div>
@@ -273,7 +276,7 @@ Template Name: Home Page
 											</ul>
 											<p class="text-center">
 												<a href="?p=654" class="btn btn-lg btn-default">Learn more </a>
-												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -292,7 +295,7 @@ Template Name: Home Page
 											<p>As part of the event experience, the Event Logistics Management team will become familiar and comfortable with the venue layout, parking facilities and shuttle drop and load zone opportunities.  We will work alongside city and local agencies to optimize ingress and egress for the event, and produce a solution which reduces the impact of the event to its guests and the local community.</p>
 											<p class="text-center">
 												<a href="?p=549" class="btn btn-lg btn-default">Learn more </a>
-												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
@@ -317,7 +320,7 @@ Template Name: Home Page
 											</ul>
 											<p class="text-center">
 												<a href="?p=552" class="btn btn-lg btn-default">Learn more </a>
-												<a class="btn btn-lg btn-primary" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">

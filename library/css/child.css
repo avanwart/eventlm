@@ -519,12 +519,13 @@ body.home .services .tab-pane {
   body.home .services .tab-pane.parking img {
     max-width: 110%; }
   body.home .services .tab-pane.traffic img {
-    max-width: 110%;
-    margin-top: 45px; }
+    max-width: 300px;
+    margin-top: 25px; }
   body.home .services .tab-pane.vehicle img {
     max-width: 110%; }
   body.home .services .tab-pane.planning img {
-    width: 320px; }
+    margin: 60px 0 0 -30px;
+    max-width: 120%; }
 body.home .events h1 {
   margin-bottom: 1em; }
 body.home .events img {
@@ -1203,8 +1204,9 @@ section {
     body.home section img {
       max-width: 100% !important;
       height: auto; }
-    body.home section .btn-primary {
-      width: 100%; }
+    body.home section .btn-primary, body.home section .btn-default {
+      width: 100%;
+      font-size: 15px; }
   body.home .hero .carousel-fade .item {
     padding: 2em 0; }
     body.home .hero .carousel-fade .item.stadium {
@@ -1265,10 +1267,12 @@ section {
         width: 100%; }
       body.home .features .tab-content .tab-pane .col-sm-12 p, body.home .features .tab-content .tab-pane .col-lg-6 p {
         margin-bottom: 20px; }
-  body.home .testimonials .btn-default {
-    font-size: 14px; }
+  body.home .testimonials img {
+    margin: 0 0 15px; }
   body.home .testimonials blockquote {
     padding: 0 0 15px; }
+    body.home .testimonials blockquote:before {
+      display: none; }
     body.home .testimonials blockquote small {
       white-space: normal; }
   body.home .events h3 {
@@ -1282,15 +1286,14 @@ section {
       font-size: 16px; }
   body.home .events .btn-primary {
     margin-bottom: 40px; }
-  body.home .benefits h2 {
-    font-size: 17px; }
-  body.home .benefits p {
-    padding-bottom: 15px;
-    border-bottom: 1px solid #f1f1f1;
-    margin-bottom: 20px; }
-  body.home .benefits .btn-primary {
-    font-size: 14px;
-    width: 100%; }
+  body.home .services ul {
+    list-style-type: none;
+    margin: 0 0 40px;
+    padding: 0; }
+    body.home .services ul li {
+      text-align: center; }
+  body.home .services .btn-primary {
+    margin: 0; }
   body.home .faq .panel-group {
     margin-bottom: 1em; }
     body.home .faq .panel-group .panel {
