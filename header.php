@@ -36,7 +36,33 @@
 			<?php wp_head(); ?>
 			<!-- end of wordpress head -->
 
-			<!-- drop Google Analytics Here -->
+			<!-- Google Analytics -->
+			<?php
+        if ( is_404() ) { ?>
+	        <!-- Google Analytics - 404 Page -->  
+	        <script>
+	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	        ga('create', 'UA-45968330-1', 'auto');
+	        ga('require', 'displayfeatures');
+	        ga('send', 'pageview', '/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer);
+	        </script>
+
+	    <?php } else { ?>
+	        <!-- Google Analytics -->
+	        <script>
+	        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	        ga('create', 'UA-45968330-1', 'auto');
+	        ga('require', 'displayfeatures');
+	        ga('send', 'pageview');
+	        </script>
+	    
+	    <?php } ?> 
 			<!-- end analytics -->
 
 		</head>
