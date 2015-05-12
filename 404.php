@@ -11,7 +11,7 @@
 
 							<header class="article-header">
 
-								<h1><?php _e( 'Epic 404 - Article Not Found', 'bonestheme' ); ?></h1>
+								<h1 class="text-center">404 - Not found</h1>
 
 							</header> <!-- end article header -->
 

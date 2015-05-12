@@ -81,7 +81,7 @@
 				<div class="form-group">
 					<input class="form-control" placeholder="# of passengers" id="00NE0000000cE27" maxlength="15" name="00NE0000000cE27" size="20" type="text" />
 				</div>
-				<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Submit my RFP <i class="glyphicon glyphicon-chevron-right"></i></button>
+				<button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
 			</fieldset>
 		</form>
 	</div>

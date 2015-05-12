@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18911",
+"creatorBuild": "18917",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -3533,6 +3533,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/events-featured-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29428,
+		"inputAbbreviatedPath": "\/library\/images\/events-featured-image.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/events-featured-image.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/events-montage-2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3540,6 +3551,17 @@
 		"initialSize": 53068,
 		"inputAbbreviatedPath": "\/library\/images\/events-montage-2.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/events-montage-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/events-montage-white.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78537,
+		"inputAbbreviatedPath": "\/library\/images\/events-montage-white.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/events-montage-white.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4343,6 +4365,17 @@
 		"initialSize": 15028,
 		"inputAbbreviatedPath": "\/library\/images\/traffic-management.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/traffic-management.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/traffic-signal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30391,
+		"inputAbbreviatedPath": "\/library\/images\/traffic-signal.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/traffic-signal.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
