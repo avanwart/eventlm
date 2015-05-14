@@ -16,7 +16,51 @@ Template Name: Contact
 						<div class="row">
 							<div class="col-sm-6 form">
 								<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-									<?php the_content(); ?>
+									<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" id="contact-form">
+
+										<input type=hidden name="oid" value="00DE0000000IvUX">
+										<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/contact-thank-you">
+
+										<!--  ----------------------------------------------------------------------  -->
+										<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+										<!--  these lines if you wish to test in debug mode.                          -->
+										<!--  <input type="hidden" name="debug" value=1>                              -->
+										<!--  <input type="hidden" name="debugEmail" value="ckwak@bauersit.com">      -->
+										<!--  ----------------------------------------------------------------------  -->
+
+										<div class="form-group">
+											<label for="first_name">First Name</label>
+											<input  id="first_name" maxlength="40" name="first_name" size="20" type="text" required=""/>
+										</div>
+
+										<div class="form-group">
+											<label for="last_name">Last Name</label>
+											<input  id="last_name" maxlength="80" name="last_name" size="20" type="text" required=""/>
+										</div>
+
+										<div class="form-group">
+											<label for="company">Company</label>
+											<input  id="company" maxlength="40" name="company" size="20" type="text" required=""/>
+										</div>
+
+										<div class="form-group">
+											<label for="email">Email</label>
+											<input  id="email" maxlength="80" name="email" size="20" type="text" required=""/>
+										</div>
+
+										<div class="form-group">
+											<label for="phone">Phone</label>
+											<input  id="phone" maxlength="40" name="phone" size="20" type="text" required=""/>
+										</div>
+
+										<div class="form-group">
+											<label for="description">Message</label>
+											<textarea name="description"></textarea>
+										</div>
+
+										<input type="submit" name="submit">
+
+									</form>
 								<?php endwhile; endif; ?>
 							</div>
 							<div class="col-sm-6">
@@ -65,11 +109,15 @@ Template Name: Contact
 </section>
 <script>
 	jQuery(document).ready(function($){
+
 		// Input mask - Restrict count, formatting, numbers only
 		$.extend($.inputmask.defaults, {
 			'placeholder': " "
 		});
 		$('input[type="tel"]').inputmask("(999) 999-9999");
+
+		$('#contact-form').validate();
+
 	});
 </script>
 
