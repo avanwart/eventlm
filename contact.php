@@ -55,7 +55,7 @@ Template Name: Contact
 
 										<div class="form-group">
 											<label for="description">Message</label>
-											<textarea name="description"></textarea>
+											<textarea name="description" class="form-control"></textarea>
 										</div>
 
 										<button class="btn btn-lg btn-primary" type="submit" name="submit">Submit my inquiry<i class="glyphicon glyphicon-chevron-right"></i></button>
