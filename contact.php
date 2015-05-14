@@ -29,28 +29,28 @@ Template Name: Contact
 										<!--  ----------------------------------------------------------------------  -->
 
 										<div class="form-group">
-											<label for="first_name">First Name</label>
+											<label for="first_name">First Name *</label>
 											<input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" required=""/>
 										</div>
 
 										<div class="form-group">
-											<label for="last_name">Last Name</label>
+											<label for="last_name">Last Name *</label>
 											<input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text" required=""/>
 										</div>
 
 										<div class="form-group">
-											<label for="company">Company</label>
+											<label for="company">Company *</label>
 											<input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" required=""/>
 										</div>
 
 										<div class="form-group">
-											<label for="email">Email</label>
+											<label for="email">Email *</label>
 											<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" required=""/>
 										</div>
 
 										<div class="form-group">
-											<label for="phone">Phone</label>
-											<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="text" required=""/>
+											<label for="phone">Phone *</label>
+											<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="tel" required=""/>
 										</div>
 
 										<div class="form-group">
