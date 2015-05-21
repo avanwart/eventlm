@@ -650,6 +650,8 @@ body.single-post .widget.about {
         line-height: 260px;
         border: none;
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3); }
+  .card article {
+    min-height: 442px; }
 
 .bar .bucket {
   margin: 15px 0 0; }
@@ -803,9 +805,9 @@ section {
   float: left;
   border: 1px solid #f1f1f1;
   padding: 6px;
-  max-width: 164px;
+  max-width: 165px;
   height: auto;
-  margin: 0 20px 20px 0;
+  margin: 0 10px 20px 0;
   font-size: 13px;
   text-align: center; }
   .gallery.gallery-size-thumbnail .gallery-item img {

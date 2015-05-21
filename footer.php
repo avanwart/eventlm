@@ -48,7 +48,7 @@
 					</ul>
 				</div>
 
-				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Event Logistics Management &nbsp;&nbsp;| <a href="?p=175">Terms &amp; Conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="?p=547">Privacy Policy</a></p>
+				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Event Logistics Management &nbsp;&nbsp;|&nbsp;&nbsp; <a href="<?php bloginfo('url'); ?>/?p=673">Privacy Policy</a></p>
 
 				</div> <!-- end .container -->
 
