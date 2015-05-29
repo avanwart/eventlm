@@ -238,7 +238,7 @@ Template Name: Home Page
 									<div class="row">
 										<div class="col-sm-7">
 											<h2>Traffic Operations Management</h2>
-											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit illum quam debitis.</p>
+											<p>Our operations team will also design and implement the following:</p>
 											<ul>
 												<li>Assistance in securing permits for street closures and load zones</li>
 												<li>Operator monitoring center with realtime traffic reporting</li>
@@ -250,7 +250,7 @@ Template Name: Home Page
 											</p>
 										</div>
 										<div class="col-sm-5">
-											<img src="<?php bloginfo('template_directory'); ?>/library/images/traffic-signal.jpg" class="signal img-responsive" alt="">
+											<img src="<?php bloginfo('template_directory'); ?>/library/images/traffic-photo.jpg" class="img-thumbnail img-responsive" alt="">
 										</div>
 									</div>
 								</div>

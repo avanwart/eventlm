@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18917",
+"creatorBuild": "18966",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -3379,6 +3379,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/conference-direct-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10991,
+		"inputAbbreviatedPath": "\/library\/images\/conference-direct-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/conference-direct-logo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/conference-icon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3463,6 +3474,17 @@
 		"initialSize": 136876,
 		"inputAbbreviatedPath": "\/library\/images\/dreamforce-split.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/dreamforce-split.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/dropbox-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9712,
+		"inputAbbreviatedPath": "\/library\/images\/dropbox-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/dropbox-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3826,6 +3848,17 @@
 		"initialSize": 36461,
 		"inputAbbreviatedPath": "\/library\/images\/imac-mockup2.jpg",
 		"outputAbbreviatedPath": "\/library\/images\/imac-mockup2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/library\/images\/lending-club-logo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14537,
+		"inputAbbreviatedPath": "\/library\/images\/lending-club-logo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/lending-club-logo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -4369,6 +4402,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/traffic-photo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41222,
+		"inputAbbreviatedPath": "\/library\/images\/traffic-photo.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/traffic-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/traffic-signal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4617,6 +4661,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/library\/js\/libs\/bootstrap.min.js",
 		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/bootstrap.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/library\/js\/libs\/jquery-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/library\/js\/libs\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/library\/js\/libs\/min\/jquery-ui.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

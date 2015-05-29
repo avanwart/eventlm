@@ -520,7 +520,6 @@ body.home .services .tab-pane {
   body.home .services .tab-pane.parking img {
     max-width: 110%; }
   body.home .services .tab-pane.traffic img {
-    max-width: 300px;
     margin-top: 25px; }
   body.home .services .tab-pane.vehicle img {
     max-width: 110%; }
@@ -815,6 +814,8 @@ section {
     height: auto;
     margin-bottom: 5px; }
 
+.testimonial-quotes .card article {
+  min-height: 100px; }
 .testimonial-quotes blockquote {
   font-style: italic;
   border: none;
