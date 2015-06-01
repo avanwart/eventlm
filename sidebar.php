@@ -1,11 +1,11 @@
 <div class="bar">
 	
-		<?php if ( $post->post_parent == '4' || is_page(4) ) { ?>
+		<?php if ( is_page_template( 'services.php' ) ) { ?>
 			<div class="bucket">
   		<h3 class="bucket-title">Our Services</h3>
   		<?php services_bucket(); ?>
   		</div> <?php
-		} elseif ( $post->post_parent == '631' || is_page(631) ) { ?>
+		} elseif ( is_page_template( 'about.php' ) || is_page_template( 'testimonials.php' )  ) { ?>
 			<div class="bucket">
   		<h3 class="bucket-title">Company</h3>
   		<?php company_bucket(); ?>
@@ -16,6 +16,8 @@
 	<button class="btn btn-lg btn-block btn-primary visible-xs" id="toggle_intake">Get a free quote <i class="glyphicon glyphicon-chevron-right"></i></button>
 	<div class="widget quick-quote" id="intake_widget">
 		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form" id="rfp">
+			<input type=hidden name="oid" value="00DE0000000IvUX">
+			<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/thank-you">
 			<legend>Get a Quote <small>We'll reply within one business day</small></legend>
 			<fieldset>
 				<div class="form-group">
@@ -102,12 +104,7 @@
 		}, 'Enter a valid phone number.');
 
 		// Form Validation
-		$('#rfp').validate({
-			submitHandler: function() { 
-				$('#rfp button').prop('disabled', true);
-				window.location = "?p=462"
-			}
-		});
+		$('#rfp').validate();
 
 		// Valid class for select dropdown
 		$('select').change(function(){
