@@ -2,7 +2,6 @@
 
 	// Secondary Pages
 	.standard
-		padding: 0em
 		blockquote
 			padding: 10px 0
 			font-size: 16px
@@ -10,8 +9,15 @@
 				left: 5px
 				font-size: 40px
 		.card
-			padding: 280px 15px 2em
+			padding: 280px 30px 2em
 			border: none
+			p
+				font-size: 15px
+				line-height: 2
+			ul, ol
+				li
+					font-size: 15px
+					margin-bottom: 20px
 			&.flush
 				visibility: visible
 			header
@@ -26,3 +32,10 @@
 						font-size: 38px
 						display: table-cell
 						vertical-align: middle
+
+	// Sidebar
+	.bar
+		.bucket
+			margin: 0
+			.bucket-title
+				font-size: 18px

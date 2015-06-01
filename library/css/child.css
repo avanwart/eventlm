@@ -1030,30 +1030,39 @@ section {
         background-size: auto 13px; }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .standard {
-    padding: 0em; }
-    .standard blockquote {
-      padding: 10px 0;
-      font-size: 16px; }
-      .standard blockquote:before {
-        left: 5px;
-        font-size: 40px; }
-    .standard .card {
-      padding: 280px 15px 2em;
-      border: none; }
-      .standard .card.flush {
-        visibility: visible; }
-      .standard .card header .overlay {
-        padding: 0 15px;
-        background: rgba(0, 0, 0, 0.65);
-        display: table;
-        width: 100%; }
-        .standard .card header .overlay h1 {
-          line-height: 1.3;
-          margin-top: 65px;
-          font-size: 38px;
-          display: table-cell;
-          vertical-align: middle; } }
+  .standard blockquote {
+    padding: 10px 0;
+    font-size: 16px; }
+    .standard blockquote:before {
+      left: 5px;
+      font-size: 40px; }
+  .standard .card {
+    padding: 280px 30px 2em;
+    border: none; }
+    .standard .card p {
+      font-size: 15px;
+      line-height: 2; }
+    .standard .card ul li, .standard .card ol li {
+      font-size: 15px;
+      margin-bottom: 20px; }
+    .standard .card.flush {
+      visibility: visible; }
+    .standard .card header .overlay {
+      padding: 0 15px;
+      background: rgba(0, 0, 0, 0.65);
+      display: table;
+      width: 100%; }
+      .standard .card header .overlay h1 {
+        line-height: 1.3;
+        margin-top: 65px;
+        font-size: 38px;
+        display: table-cell;
+        vertical-align: middle; }
+
+  .bar .bucket {
+    margin: 0; }
+    .bar .bucket .bucket-title {
+      font-size: 18px; } }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   header .navbar-default .container {
     position: relative; }

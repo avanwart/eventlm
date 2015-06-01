@@ -11,12 +11,12 @@ Template Name: About
 		<div class="row">
 			<div class="col-sm-12">
 				<div class="row">
-					<div class="col-sm-4 col-md-3 hidden-xs">
+					<div class="col-sm-4 col-md-4 hidden-xs">
 						<?php
 							get_sidebar();
 						?>
 					</div>
-					<div class="col-sm-8 col-md-9 col-lg-8 card">
+					<div class="col-sm-8 col-md-8 col-lg-8 card">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 						<?php
 							$thumb = wp_get_attachment_image_src( get_post_thumbnail_id($post->ID), 'large' );
