@@ -39,14 +39,14 @@
 
 				</div> <!-- end #inner-footer -->
 
-				<div class="text-center">
+				<!-- <div class="text-center">
 					<ul class="social-media">
 						<li class="facebook"><a href="#"></a></li>
 						<li class="twitter"><a href="#"></a></li>
 						<li class="linkedin"><a href="#"></a></li>
 						<li class="email"><a href="#"></a></li>
 					</ul>
-				</div>
+				</div> -->
 
 				<p class="source-org copyright">&copy; <?php echo date('Y'); ?> Event Logistics Management &nbsp;&nbsp;|&nbsp;&nbsp; <a href="<?php bloginfo('url'); ?>/?p=673">Privacy Policy</a></p>
 
