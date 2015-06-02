@@ -17,7 +17,7 @@
 	<div class="widget quick-quote" id="intake_widget">
 		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form" id="rfp">
 			<input type=hidden name="oid" value="00DE0000000IvUX">
-			<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/thank-you">
+			<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/qq-thank-you">
 			<legend>Get a Quote <small>We'll reply within one business day</small></legend>
 			<fieldset>
 				<div class="form-group">
