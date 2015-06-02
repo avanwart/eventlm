@@ -139,12 +139,8 @@ Template Name: Get a Quote
 		}, 'Enter a valid phone number.');
 
 		// Form Validation
-		$('#rfp').validate({
-			submitHandler: function() { 
-				$('#rfp button').prop('disabled', true);
-				window.location = "?p=462"
-			}
-		});
+		$('#rfp').validate();
+		
 		$('select').change(function(){
 			if( $(this).val() == "" ){
 				$(this).removeClass('valid');

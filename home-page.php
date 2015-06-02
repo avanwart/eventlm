@@ -202,7 +202,7 @@ Template Name: Home Page
 						<li role="presentation"><a href="#traffic" aria-controls="profile" role="tab" data-toggle="tab">Traffic Operations Management</a></li>
 						<li role="presentation"><a href="#fans" aria-controls="messages" role="tab" data-toggle="tab">Fan <br class="hidden-xs"/>Transportation</a></li>
 						<li role="presentation"><a href="#parking" aria-controls="settings" role="tab" data-toggle="tab">Parking <br class="hidden-xs"/>Solutions</a></li>
-						<li role="presentation"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
+						<li role="presentation" class="hidden-sm"><a href="#vehicle" aria-controls="settings" role="tab" data-toggle="tab">Vehicle <br class="hidden-xs"/>Procurement</a></li>
 					</ul>
 					<!-- Tab panes -->
 					<div class="tab-content">
@@ -220,13 +220,16 @@ Template Name: Home Page
 												<li>Customized routing design</li>
 												<li>Budget Reduction Services</li>
 											</ul>
-											<p class="text-center">
+											<p class="text-center hidden-sm">
 												<a href="?p=564" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/map-routes.jpg" class="img-responsive" alt="">
+											<div class="text-center visible-sm">
+												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -244,13 +247,16 @@ Template Name: Home Page
 												<li>Operator monitoring center with realtime traffic reporting</li>
 												<li>Crowd and safety management</li>
 											</ul>
-											<p class="text-center">
+											<p class="text-center hidden-sm">
 												<a href="?p=545" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/traffic-photo.jpg" class="img-thumbnail img-responsive" alt="">
+											<div class="text-center visible-sm">
+												<a class="btn btn-lg btn-primary" href="?p=545">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -274,13 +280,16 @@ Template Name: Home Page
 												<li>Real Time GPS Management of Ridership</li>
 												<li>Traffic Demand Management</li>
 											</ul>
-											<p class="text-center">
+											<p class="text-center hidden-sm">
 												<a href="?p=654" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/get2theevent-logo-lg.jpg" class="img-responsive" alt="">
+											<div class="text-center visible-sm">
+												<a class="btn btn-lg btn-primary" href="?p=654">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -293,13 +302,16 @@ Template Name: Home Page
 										<div class="col-sm-7">
 											<h2>Parking Solutions</h2>
 											<p>As part of the event experience, the Event Logistics Management team will become familiar and comfortable with the venue layout, parking facilities and shuttle drop and load zone opportunities.  We will work alongside city and local agencies to optimize ingress and egress for the event, and produce a solution which reduces the impact of the event to its guests and the local community.</p>
-											<p class="text-center">
+											<p class="text-center hidden-sm">
 												<a href="?p=549" class="btn btn-lg btn-default">Learn more </a>
 												<a class="btn btn-lg btn-primary" href="?p=515">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 											</p>
 										</div>
 										<div class="col-sm-5">
 											<img src="<?php bloginfo('template_directory'); ?>/library/images/parking-lot.jpg" class="img-thumbnail img-responsive" alt="">
+											<div class="text-center visible-sm">
+												<a class="btn btn-lg btn-primary" href="?p=549">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -360,7 +372,7 @@ Template Name: Home Page
 				<!-- CTA -->
 				<div class="row">
 					<div class="col-sm-12 text-center">
-						<button class="btn btn-lg btn-default" id="toggle_intake">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></button>
+						<a href="?p=515" class="btn btn-lg btn-default">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -377,7 +389,7 @@ Template Name: Home Page
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-7">
+					<div class="col-sm-8 col-md-7">
 						<h3>Types of events we regularly service:</h3>
 						<ul>
 							<li>Conventions</li>
@@ -393,10 +405,10 @@ Template Name: Home Page
 						</ul>
 						<div class="text-center">
 							<a href="?page_id=4" class="btn btn-lg btn-default">Learn more </a>
-							<a href="#" class="btn btn-lg btn-primary">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
+							<a href="?p=515" class="btn btn-lg btn-primary">Request a free consultation <i class="glyphicon glyphicon-chevron-right"></i></a>
 						</div>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-4 col-md-5">
 						<img src="<?php bloginfo('template_directory'); ?>/library/images/events-montage-2.jpg" alt="" class="img-responsive">
 					</div>
 				</div>
