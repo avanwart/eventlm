@@ -45,12 +45,12 @@ Template Name: Contact
 
 										<div class="form-group">
 											<label for="email">Email *</label>
-											<input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" required=""/>
+											<input class="form-control" id="email" maxlength="80" name="email" size="20" type="email" required=""/>
 										</div>
 
 										<div class="form-group">
 											<label for="phone">Phone *</label>
-											<input class="form-control" id="phone" maxlength="40" name="phone" size="20" type="tel" required=""/>
+											<input class="form-control phoneUS" id="phone" maxlength="40" name="phone" size="20" type="tel" required=""/>
 										</div>
 
 										<div class="form-group">
@@ -105,6 +105,12 @@ Template Name: Contact
 </section>
 <script>
 	jQuery(document).ready(function($){
+
+		// Adding a method for US phone numbers
+		jQuery.validator.addMethod("phoneUS", function(value, element) {
+			// allow any non-whitespace characters as the host part
+			return this.optional( element ) || /^(\([0-9]{3}\) |[0-9]{3}-)[0-9]{3}-[0-9]{4}$/.test( value );
+		}, 'Enter a valid phone number.');
 
 		// Input mask - Restrict count, formatting, numbers only
 		$.extend($.inputmask.defaults, {

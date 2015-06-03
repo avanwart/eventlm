@@ -15,6 +15,7 @@ Template Name: Get a Quote
 				<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form form-horizontal" id="rfp">
 					<input type=hidden name="oid" value="00DE0000000IvUX">
 					<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/thank-you">
+					<input type="hidden" id="00NE0000000cAF6" name="00NE0000000cAF6" value="Special Event">
 
 					<!--  ----------------------------------------------------------------------  -->
 					<!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -22,7 +23,7 @@ Template Name: Get a Quote
 					<!--  <input type="hidden" name="debug" value=1>                              -->
 					<!--  <input type="hidden" name="debugEmail" value="ckwak@bauersit.com">      -->
 					<!--  ----------------------------------------------------------------------  -->
-					<div class="form-group">
+					<!-- <div class="form-group">
 						<label class="col-sm-3 control-label" for="00NE0000000cAF6">Event Type</label>
 						<div class="col-sm-7">
 							<select class="form-control" id="00NE0000000cAF6" name="00NE0000000cAF6" required="">
@@ -32,7 +33,7 @@ Template Name: Get a Quote
 								<option value="Transit">Commuter</option>
 							</select>
 						</div>
-					</div>
+					</div> -->
 					<div class="form-group">
 						<label class="col-sm-3 control-label" for="first_name">First name</label>
 						<div class="col-sm-7">
@@ -140,7 +141,7 @@ Template Name: Get a Quote
 
 		// Form Validation
 		$('#rfp').validate();
-		
+
 		$('select').change(function(){
 			if( $(this).val() == "" ){
 				$(this).removeClass('valid');
