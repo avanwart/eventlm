@@ -36,7 +36,7 @@ Template Name: Home Page
 			<div class="item dreamforce">
 				<div class="row">
 					<div class="col-sm-6 col-sm-offset-6 caption hidden-xs">
-						Nike Woman's Marathon athletes and spectators use ELM.
+						Nike Woman's Marathon athletes use ELM.
 					</div>
 				</div>
 				<div class="container">
