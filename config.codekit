@@ -4006,6 +4006,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/library\/images\/nike-marathon-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93233,
+		"inputAbbreviatedPath": "\/library\/images\/nike-marathon-hero.jpg",
+		"outputAbbreviatedPath": "\/library\/images\/nike-marathon-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/library\/images\/oracle-racing-hero-dark.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

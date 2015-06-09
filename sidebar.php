@@ -18,16 +18,9 @@
 		<form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST" class="form" id="rfp">
 			<input type=hidden name="oid" value="00DE0000000IvUX">
 			<input type=hidden name="retURL" value="<?php bloginfo('url'); ?>/qq-thank-you">
+			<input type="hidden" id="00NE0000000cAF6" name="00NE0000000cAF6" value="Special Event">
 			<legend>Get a Quote <small>We'll reply within one business day</small></legend>
 			<fieldset>
-				<div class="form-group">
-					<select class="form-control" id="00NE0000000cAF6" name="00NE0000000cAF6" required="">
-						<option value="">- Select event type -</option>
-						<option value="Charter">Charters</option>
-						<option value="Special Event">Special Events</option>
-						<option value="Transit">Commuter</option>
-					</select>
-				</div>
 				<div class="form-group">
 					<input class="form-control" placeholder="First name" id="first_name" maxlength="40" name="first_name" size="20" type="text" required=""/>
 				</div>
